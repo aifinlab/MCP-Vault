@@ -1,0 +1,2 @@
+# Purpose: trace normalization helpers for benchmark-specific postmortem analysis.
+# Scope: redact unstable fields and normalize finance tool-call evidence.

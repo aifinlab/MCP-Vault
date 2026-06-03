@@ -1,0 +1,151 @@
+{
+  "credit_curves": [
+    {
+      "as_of_date": "2026-05-15",
+      "country": "US",
+      "curve_id": "US-CORP-IG-20260515",
+      "issuer_type": "Corporate",
+      "points": [
+        {
+          "spread_bps": 95,
+          "tenor": "5Y"
+        },
+        {
+          "spread_bps": 120,
+          "tenor": "10Y"
+        }
+      ],
+      "source_trust_level": "trusted_deterministic_provider"
+    }
+  ],
+  "inflation_curves": [
+    {
+      "as_of_date": "2026-05-15",
+      "currency": "USD",
+      "curve_id": "USD-INFL-20260515",
+      "points": [
+        {
+          "breakeven_rate": 0.024,
+          "tenor": "5Y"
+        },
+        {
+          "breakeven_rate": 0.023,
+          "tenor": "10Y"
+        }
+      ],
+      "source_trust_level": "trusted_deterministic_provider"
+    }
+  ],
+  "interest_rate_curves": [
+    {
+      "as_of_date": "2026-05-15",
+      "currency": "USD",
+      "curve_id": "USD-GOVT-20260515",
+      "points": [
+        {
+          "rate": 0.041,
+          "tenor": "2Y"
+        },
+        {
+          "rate": 0.043,
+          "tenor": "5Y"
+        },
+        {
+          "rate": 0.045,
+          "tenor": "10Y"
+        },
+        {
+          "rate": 0.047,
+          "tenor": "30Y"
+        }
+      ],
+      "source_trust_level": "trusted_deterministic_provider"
+    },
+    {
+      "as_of_date": "2026-05-15",
+      "currency": "HKD",
+      "curve_id": "HKD-GOVT-20260515",
+      "points": [
+        {
+          "rate": 0.0268,
+          "tenor": "2Y"
+        },
+        {
+          "rate": 0.0288,
+          "tenor": "5Y"
+        },
+        {
+          "rate": 0.0308,
+          "tenor": "10Y"
+        },
+        {
+          "rate": 0.0328,
+          "tenor": "30Y"
+        }
+      ],
+      "source_trust_level": "trusted_deterministic_provider"
+    },
+    {
+      "as_of_date": "2026-05-15",
+      "currency": "CNY",
+      "curve_id": "CNY-GOVT-20260515",
+      "points": [
+        {
+          "rate": 0.0355,
+          "tenor": "2Y"
+        },
+        {
+          "rate": 0.0375,
+          "tenor": "5Y"
+        },
+        {
+          "rate": 0.0395,
+          "tenor": "10Y"
+        },
+        {
+          "rate": 0.0415,
+          "tenor": "30Y"
+        }
+      ],
+      "source_trust_level": "trusted_deterministic_provider"
+    },
+    {
+      "as_of_date": "2026-05-15",
+      "currency": "EUR",
+      "curve_id": "EUR-GOVT-20260515",
+      "points": [
+        {
+          "rate": 0.0222,
+          "tenor": "2Y"
+        },
+        {
+          "rate": 0.0242,
+          "tenor": "5Y"
+        },
+        {
+          "rate": 0.0262,
+          "tenor": "10Y"
+        },
+        {
+          "rate": 0.0282,
+          "tenor": "30Y"
+        }
+      ],
+      "source_trust_level": "trusted_deterministic_provider"
+    }
+  ],
+  "ir_swaps": [
+    {
+      "as_of_date": "2026-05-15",
+      "currency": "USD",
+      "dv01": 4750.0,
+      "index": "SOFR",
+      "npv": 0.0,
+      "par_rate": 0.044,
+      "source_trust_level": "trusted_deterministic_provider",
+      "tenor": "5Y"
+    }
+  ],
+  "schema_version": "rates_curves_world_v1",
+  "world_id": "financial_services_seed42"
+}

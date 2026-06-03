@@ -1,0 +1,22 @@
+"""
+Cleanup functions for tasks.
+"""
+from typing import Callable
+
+CLEANUP_FUNCTIONS = {}
+
+
+def cleanup_func(server_name: str, cleanup_func_name: str):
+    """A decorator for cleanup functions"""
+
+    def _decorator(func: Callable):
+        assert (server_name, cleanup_func_name) not in CLEANUP_FUNCTIONS, \
+            f"Duplicated cleanup function ({server_name}, {cleanup_func_name})"
+        CLEANUP_FUNCTIONS[(server_name, cleanup_func_name)] = func
+
+        async def _wrapper(*args, **kwargs):
+            return await func(*args, **kwargs)
+
+        return _wrapper
+
+    return _decorator

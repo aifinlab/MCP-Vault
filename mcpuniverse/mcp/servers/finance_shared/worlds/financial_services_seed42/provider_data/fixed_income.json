@@ -1,0 +1,435 @@
+{
+  "bond_futures": [
+    {
+      "as_of_date": "2026-05-15",
+      "contract_dv01": 78.0,
+      "ctd_bond_id": "BOND-FS-UST10Y",
+      "delivery_basket": [
+        {
+          "bond_id": "BOND-FS-UST10Y",
+          "conversion_factor": 0.8123
+        }
+      ],
+      "fair_price": 111.25,
+      "future_ric": "TYc1",
+      "source_trust_level": "trusted_deterministic_provider"
+    }
+  ],
+  "bonds": [
+    {
+      "as_of_date": "2026-05-15",
+      "bond_id": "BOND-FS-UST10Y",
+      "cashflows": [
+        {
+          "coupon": 20625.0,
+          "date": "2026-11-15",
+          "principal": 0.0
+        },
+        {
+          "coupon": 20625.0,
+          "date": "2036-05-15",
+          "principal": 1000000.0
+        }
+      ],
+      "cusip": "91282CJJ1",
+      "isin": "US91282CJJ18",
+      "pricing": {
+        "clean_price": 98.25,
+        "convexity": 0.72,
+        "currency": "USD",
+        "dirty_price": 98.61,
+        "duration": 7.9,
+        "dv01": 790.0,
+        "yield": 0.0448
+      },
+      "reference": {
+        "coupon": 0.04125,
+        "currency": "USD",
+        "issuer": "United States Treasury",
+        "maturity": "2036-05-15",
+        "rating": "AA+",
+        "security_type": "Treasury Note"
+      },
+      "ric": "US10YT=RR",
+      "risk_analytics": {
+        "effective_duration": 7.8,
+        "key_rate_durations": {
+          "10Y": 5.4,
+          "2Y": 0.2,
+          "5Y": 2.1
+        },
+        "oas_bps": 0
+      },
+      "scenarios": {
+        "parallel_100bp_down": {
+          "pnl": 80500.0,
+          "price": 106.3
+        },
+        "parallel_100bp_up": {
+          "pnl": -75500.0,
+          "price": 90.7
+        }
+      },
+      "source_trust_level": "trusted_deterministic_provider"
+    },
+    {
+      "as_of_date": "2026-05-15",
+      "bond_id": "BOND-FS-0002",
+      "cashflows": [
+        {
+          "coupon": 31455.0,
+          "date": "2030-05-15",
+          "principal": 500000.0
+        }
+      ],
+      "cusip": "750572325",
+      "isin": "US2584392711",
+      "pricing": {
+        "clean_price": 95.44,
+        "convexity": 0.85,
+        "currency": "USD",
+        "dirty_price": 95.79,
+        "duration": 8.26,
+        "dv01": 687.79,
+        "yield": 0.0689
+      },
+      "reference": {
+        "coupon": 0.06291,
+        "currency": "USD",
+        "issuer": "Generated Issuer 02",
+        "maturity": "2030-05-15",
+        "rating": "AA-",
+        "security_type": "Corporate Bond"
+      },
+      "ric": "GEN02=RR",
+      "risk_analytics": {
+        "effective_duration": 8.27,
+        "key_rate_durations": {
+          "10Y": 3.2,
+          "2Y": 0.3,
+          "5Y": 1.8
+        },
+        "oas_bps": 81
+      },
+      "scenarios": {
+        "parallel_100bp_down": {
+          "pnl": 26000.0,
+          "price": 100.64
+        },
+        "parallel_100bp_up": {
+          "pnl": -25000.0,
+          "price": 90.44
+        }
+      },
+      "source_trust_level": "trusted_deterministic_provider"
+    },
+    {
+      "as_of_date": "2026-05-15",
+      "bond_id": "BOND-FS-0003",
+      "cashflows": [
+        {
+          "coupon": 14660.0,
+          "date": "2031-05-15",
+          "principal": 500000.0
+        }
+      ],
+      "cusip": "525904456",
+      "isin": "US9410288290",
+      "pricing": {
+        "clean_price": 88.41,
+        "convexity": 0.73,
+        "currency": "USD",
+        "dirty_price": 88.76,
+        "duration": 3.29,
+        "dv01": 726.32,
+        "yield": 0.0353
+      },
+      "reference": {
+        "coupon": 0.02932,
+        "currency": "USD",
+        "issuer": "Generated Issuer 03",
+        "maturity": "2031-05-15",
+        "rating": "AA-",
+        "security_type": "Corporate Bond"
+      },
+      "ric": "GEN03=RR",
+      "risk_analytics": {
+        "effective_duration": 2.66,
+        "key_rate_durations": {
+          "10Y": 3.2,
+          "2Y": 0.3,
+          "5Y": 1.8
+        },
+        "oas_bps": 102
+      },
+      "scenarios": {
+        "parallel_100bp_down": {
+          "pnl": 26000.0,
+          "price": 93.61
+        },
+        "parallel_100bp_up": {
+          "pnl": -25000.0,
+          "price": 83.41
+        }
+      },
+      "source_trust_level": "trusted_deterministic_provider"
+    },
+    {
+      "as_of_date": "2026-05-15",
+      "bond_id": "BOND-FS-0004",
+      "cashflows": [
+        {
+          "coupon": 27950.0,
+          "date": "2032-05-15",
+          "principal": 500000.0
+        }
+      ],
+      "cusip": "472807202",
+      "isin": "US4361393222",
+      "pricing": {
+        "clean_price": 101.6,
+        "convexity": 0.53,
+        "currency": "USD",
+        "dirty_price": 101.95,
+        "duration": 4.78,
+        "dv01": 489.35,
+        "yield": 0.0619
+      },
+      "reference": {
+        "coupon": 0.0559,
+        "currency": "USD",
+        "issuer": "Generated Issuer 04",
+        "maturity": "2032-05-15",
+        "rating": "AA-",
+        "security_type": "Corporate Bond"
+      },
+      "ric": "GEN04=RR",
+      "risk_analytics": {
+        "effective_duration": 2.08,
+        "key_rate_durations": {
+          "10Y": 3.2,
+          "2Y": 0.3,
+          "5Y": 1.8
+        },
+        "oas_bps": 127
+      },
+      "scenarios": {
+        "parallel_100bp_down": {
+          "pnl": 26000.0,
+          "price": 106.8
+        },
+        "parallel_100bp_up": {
+          "pnl": -25000.0,
+          "price": 96.6
+        }
+      },
+      "source_trust_level": "trusted_deterministic_provider"
+    },
+    {
+      "as_of_date": "2026-05-15",
+      "bond_id": "BOND-FS-0005",
+      "cashflows": [
+        {
+          "coupon": 20900.0,
+          "date": "2033-05-15",
+          "principal": 500000.0
+        }
+      ],
+      "cusip": "289125618",
+      "isin": "US5952059278",
+      "pricing": {
+        "clean_price": 95.84,
+        "convexity": 0.79,
+        "currency": "USD",
+        "dirty_price": 96.19,
+        "duration": 5.39,
+        "dv01": 569.62,
+        "yield": 0.0478
+      },
+      "reference": {
+        "coupon": 0.0418,
+        "currency": "USD",
+        "issuer": "Generated Issuer 05",
+        "maturity": "2033-05-15",
+        "rating": "AA-",
+        "security_type": "Corporate Bond"
+      },
+      "ric": "GEN05=RR",
+      "risk_analytics": {
+        "effective_duration": 7.04,
+        "key_rate_durations": {
+          "10Y": 3.2,
+          "2Y": 0.3,
+          "5Y": 1.8
+        },
+        "oas_bps": 177
+      },
+      "scenarios": {
+        "parallel_100bp_down": {
+          "pnl": 26000.0,
+          "price": 101.04
+        },
+        "parallel_100bp_up": {
+          "pnl": -25000.0,
+          "price": 90.84
+        }
+      },
+      "source_trust_level": "trusted_deterministic_provider"
+    },
+    {
+      "as_of_date": "2026-05-15",
+      "bond_id": "BOND-FS-0006",
+      "cashflows": [
+        {
+          "coupon": 21795.0,
+          "date": "2034-05-15",
+          "principal": 500000.0
+        }
+      ],
+      "cusip": "446071904",
+      "isin": "US7839626408",
+      "pricing": {
+        "clean_price": 101.21,
+        "convexity": 0.28,
+        "currency": "USD",
+        "dirty_price": 101.56,
+        "duration": 7.4,
+        "dv01": 763.59,
+        "yield": 0.0496
+      },
+      "reference": {
+        "coupon": 0.04359,
+        "currency": "USD",
+        "issuer": "Generated Issuer 06",
+        "maturity": "2034-05-15",
+        "rating": "A",
+        "security_type": "Corporate Bond"
+      },
+      "ric": "GEN06=RR",
+      "risk_analytics": {
+        "effective_duration": 6.88,
+        "key_rate_durations": {
+          "10Y": 3.2,
+          "2Y": 0.3,
+          "5Y": 1.8
+        },
+        "oas_bps": 102
+      },
+      "scenarios": {
+        "parallel_100bp_down": {
+          "pnl": 26000.0,
+          "price": 106.41
+        },
+        "parallel_100bp_up": {
+          "pnl": -25000.0,
+          "price": 96.21
+        }
+      },
+      "source_trust_level": "trusted_deterministic_provider"
+    },
+    {
+      "as_of_date": "2026-05-15",
+      "bond_id": "BOND-FS-0007",
+      "cashflows": [
+        {
+          "coupon": 23895.0,
+          "date": "2035-05-15",
+          "principal": 500000.0
+        }
+      ],
+      "cusip": "630757561",
+      "isin": "US2444812497",
+      "pricing": {
+        "clean_price": 98.69,
+        "convexity": 0.39,
+        "currency": "USD",
+        "dirty_price": 99.04,
+        "duration": 3.18,
+        "dv01": 702.42,
+        "yield": 0.0538
+      },
+      "reference": {
+        "coupon": 0.04779,
+        "currency": "USD",
+        "issuer": "Generated Issuer 07",
+        "maturity": "2035-05-15",
+        "rating": "BBB+",
+        "security_type": "Corporate Bond"
+      },
+      "ric": "GEN07=RR",
+      "risk_analytics": {
+        "effective_duration": 3.82,
+        "key_rate_durations": {
+          "10Y": 3.2,
+          "2Y": 0.3,
+          "5Y": 1.8
+        },
+        "oas_bps": 127
+      },
+      "scenarios": {
+        "parallel_100bp_down": {
+          "pnl": 26000.0,
+          "price": 103.89
+        },
+        "parallel_100bp_up": {
+          "pnl": -25000.0,
+          "price": 93.69
+        }
+      },
+      "source_trust_level": "trusted_deterministic_provider"
+    },
+    {
+      "as_of_date": "2026-05-15",
+      "bond_id": "BOND-FS-0008",
+      "cashflows": [
+        {
+          "coupon": 24425.0,
+          "date": "2036-05-15",
+          "principal": 500000.0
+        }
+      ],
+      "cusip": "654724287",
+      "isin": "US3387104291",
+      "pricing": {
+        "clean_price": 102.08,
+        "convexity": 0.85,
+        "currency": "USD",
+        "dirty_price": 102.43,
+        "duration": 2.56,
+        "dv01": 476.66,
+        "yield": 0.0548
+      },
+      "reference": {
+        "coupon": 0.04885,
+        "currency": "USD",
+        "issuer": "Generated Issuer 08",
+        "maturity": "2036-05-15",
+        "rating": "A",
+        "security_type": "Corporate Bond"
+      },
+      "ric": "GEN08=RR",
+      "risk_analytics": {
+        "effective_duration": 6.49,
+        "key_rate_durations": {
+          "10Y": 3.2,
+          "2Y": 0.3,
+          "5Y": 1.8
+        },
+        "oas_bps": 101
+      },
+      "scenarios": {
+        "parallel_100bp_down": {
+          "pnl": 26000.0,
+          "price": 107.28
+        },
+        "parallel_100bp_up": {
+          "pnl": -25000.0,
+          "price": 97.08
+        }
+      },
+      "source_trust_level": "trusted_deterministic_provider"
+    }
+  ],
+  "schema_version": "fixed_income_world_v1",
+  "world_id": "financial_services_seed42"
+}

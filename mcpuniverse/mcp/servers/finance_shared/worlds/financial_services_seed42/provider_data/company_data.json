@@ -1,0 +1,753 @@
+{
+  "companies": [
+    {
+      "capital_structure": {
+        "as_of_date": "2026-05-15",
+        "cash": 68850000000.0,
+        "diluted_shares": 15000000000.0,
+        "net_debt": 24300000000.0,
+        "total_debt": 93150000000.0
+      },
+      "company_name": "Apple Inc.",
+      "consensus": {
+        "FY2026": {
+          "ebitda": 137376000000.0,
+          "eps": 7.78,
+          "revenue": 425250000000.0
+        }
+      },
+      "currency": "USD",
+      "industry": "Consumer Electronics",
+      "market": "US",
+      "model_assumptions": {
+        "base_revenue_growth": 0.045,
+        "target_ebit_margin": 0.32,
+        "terminal_growth": 0.025
+      },
+      "sector": "Information Technology",
+      "segment_financials": [
+        {
+          "operating_margin": 0.31,
+          "period": "FY2025",
+          "revenue": 299700000000.0,
+          "segment": "Core"
+        },
+        {
+          "operating_margin": 0.42,
+          "period": "FY2025",
+          "revenue": 105300000000.0,
+          "segment": "Growth"
+        }
+      ],
+      "source_trust_level": "trusted_deterministic_provider",
+      "standardized_financials": {
+        "balance_sheet": {
+          "FY2025": {
+            "cash": 68850000000.0,
+            "shareholders_equity": 76950000000.0,
+            "total_debt": 93150000000.0
+          }
+        },
+        "cash_flow": {
+          "FY2025": {
+            "capex": -12150000000.0,
+            "free_cash_flow": 105300000000.0,
+            "operating_cash_flow": 117450000000.0
+          }
+        },
+        "income_statement": {
+          "FY2024": {
+            "ebitda": 121155750000.0,
+            "eps": 6.77,
+            "revenue": 390825000000.0
+          },
+          "FY2025": {
+            "ebitda": 129600000000.0,
+            "eps": 7.2,
+            "revenue": 405000000000.0
+          }
+        }
+      },
+      "ticker": "AAPL",
+      "valuation_multiples": {
+        "as_of_date": "2026-05-15",
+        "ev_ebitda": 20.4,
+        "ev_revenue": 6.6,
+        "pe": 27.1
+      },
+      "wacc_inputs": {
+        "beta": 1.12,
+        "equity_risk_premium": 0.055,
+        "pre_tax_cost_of_debt": 0.048,
+        "risk_free_rate": 0.042,
+        "tax_rate": 0.21
+      }
+    },
+    {
+      "capital_structure": {
+        "as_of_date": "2026-05-15",
+        "cash": 45900000000.0,
+        "diluted_shares": 10000000000.0,
+        "net_debt": 16200000000.0,
+        "total_debt": 62100000000.0
+      },
+      "company_name": "Microsoft Corporation",
+      "consensus": {
+        "FY2026": {
+          "ebitda": 91584000000.0,
+          "eps": 13.07,
+          "revenue": 283500000000.0
+        }
+      },
+      "currency": "USD",
+      "industry": "Software",
+      "market": "US",
+      "model_assumptions": {
+        "base_revenue_growth": 0.045,
+        "target_ebit_margin": 0.32,
+        "terminal_growth": 0.025
+      },
+      "sector": "Information Technology",
+      "segment_financials": [
+        {
+          "operating_margin": 0.31,
+          "period": "FY2025",
+          "revenue": 199800000000.0,
+          "segment": "Core"
+        },
+        {
+          "operating_margin": 0.42,
+          "period": "FY2025",
+          "revenue": 70200000000.0,
+          "segment": "Growth"
+        }
+      ],
+      "source_trust_level": "trusted_deterministic_provider",
+      "standardized_financials": {
+        "balance_sheet": {
+          "FY2025": {
+            "cash": 45900000000.0,
+            "shareholders_equity": 51300000000.0,
+            "total_debt": 62100000000.0
+          }
+        },
+        "cash_flow": {
+          "FY2025": {
+            "capex": -8100000000.0,
+            "free_cash_flow": 70200000000.0,
+            "operating_cash_flow": 78300000000.0
+          }
+        },
+        "income_statement": {
+          "FY2024": {
+            "ebitda": 80770500000.0,
+            "eps": 11.37,
+            "revenue": 260550000000.0
+          },
+          "FY2025": {
+            "ebitda": 86400000000.0,
+            "eps": 12.1,
+            "revenue": 270000000000.0
+          }
+        }
+      },
+      "ticker": "MSFT",
+      "valuation_multiples": {
+        "as_of_date": "2026-05-15",
+        "ev_ebitda": 20.4,
+        "ev_revenue": 6.6,
+        "pe": 27.1
+      },
+      "wacc_inputs": {
+        "beta": 1.12,
+        "equity_risk_premium": 0.055,
+        "pre_tax_cost_of_debt": 0.048,
+        "risk_free_rate": 0.042,
+        "tax_rate": 0.21
+      }
+    },
+    {
+      "capital_structure": {
+        "as_of_date": "2026-05-15",
+        "cash": 21380409317.33,
+        "diluted_shares": 4658041245.61,
+        "net_debt": 7546026817.88,
+        "total_debt": 28926436135.22
+      },
+      "company_name": "NVIDIA Corporation",
+      "consensus": {
+        "FY2026": {
+          "ebitda": 42660204943.76,
+          "eps": 7.92,
+          "revenue": 132055469312.94
+        }
+      },
+      "currency": "USD",
+      "industry": "Semiconductors",
+      "market": "US",
+      "model_assumptions": {
+        "base_revenue_growth": 0.045,
+        "target_ebit_margin": 0.32,
+        "terminal_growth": 0.025
+      },
+      "sector": "Information Technology",
+      "segment_financials": [
+        {
+          "operating_margin": 0.31,
+          "period": "FY2025",
+          "revenue": 93067664087.21,
+          "segment": "Core"
+        },
+        {
+          "operating_margin": 0.42,
+          "period": "FY2025",
+          "revenue": 32699449544.16,
+          "segment": "Growth"
+        }
+      ],
+      "source_trust_level": "trusted_deterministic_provider",
+      "standardized_financials": {
+        "balance_sheet": {
+          "FY2025": {
+            "cash": 21380409317.33,
+            "shareholders_equity": 23895751589.96,
+            "total_debt": 28926436135.22
+          }
+        },
+        "cash_flow": {
+          "FY2025": {
+            "capex": -3773013408.94,
+            "free_cash_flow": 32699449544.16,
+            "operating_cash_flow": 36472462953.1
+          }
+        },
+        "income_statement": {
+          "FY2024": {
+            "ebitda": 37623232042.82,
+            "eps": 6.89,
+            "revenue": 121365264654.27
+          },
+          "FY2025": {
+            "ebitda": 40245476362.04,
+            "eps": 7.33,
+            "revenue": 125767113631.37
+          }
+        }
+      },
+      "ticker": "NVDA",
+      "valuation_multiples": {
+        "as_of_date": "2026-05-15",
+        "ev_ebitda": 20.4,
+        "ev_revenue": 6.6,
+        "pe": 27.1
+      },
+      "wacc_inputs": {
+        "beta": 1.12,
+        "equity_risk_premium": 0.055,
+        "pre_tax_cost_of_debt": 0.048,
+        "risk_free_rate": 0.042,
+        "tax_rate": 0.21
+      }
+    },
+    {
+      "capital_structure": {
+        "as_of_date": "2026-05-15",
+        "cash": 17814850704.35,
+        "diluted_shares": 3881231090.27,
+        "net_debt": 6287594366.24,
+        "total_debt": 24102445070.6
+      },
+      "company_name": "JPMorgan Chase & Co.",
+      "consensus": {
+        "FY2026": {
+          "ebitda": 35545866817.16,
+          "eps": 5.64,
+          "revenue": 110032901409.24
+        }
+      },
+      "currency": "USD",
+      "industry": "Banks",
+      "market": "US",
+      "model_assumptions": {
+        "base_revenue_growth": 0.045,
+        "target_ebit_margin": 0.32,
+        "terminal_growth": 0.025
+      },
+      "sector": "Financials",
+      "segment_financials": [
+        {
+          "operating_margin": 0.31,
+          "period": "FY2025",
+          "revenue": 77546997183.65,
+          "segment": "Core"
+        },
+        {
+          "operating_margin": 0.42,
+          "period": "FY2025",
+          "revenue": 27246242253.72,
+          "segment": "Growth"
+        }
+      ],
+      "source_trust_level": "trusted_deterministic_provider",
+      "standardized_financials": {
+        "balance_sheet": {
+          "FY2025": {
+            "cash": 17814850704.35,
+            "shareholders_equity": 19910715493.1,
+            "total_debt": 24102445070.6
+          }
+        },
+        "cash_flow": {
+          "FY2025": {
+            "capex": -3143797183.12,
+            "free_cash_flow": 27246242253.72,
+            "operating_cash_flow": 30390039436.84
+          }
+        },
+        "income_statement": {
+          "FY2024": {
+            "ebitda": 31348897577.69,
+            "eps": 4.91,
+            "revenue": 101125476057.06
+          },
+          "FY2025": {
+            "ebitda": 33533836619.96,
+            "eps": 5.22,
+            "revenue": 104793239437.37
+          }
+        }
+      },
+      "ticker": "JPM",
+      "valuation_multiples": {
+        "as_of_date": "2026-05-15",
+        "ev_ebitda": 20.4,
+        "ev_revenue": 6.6,
+        "pe": 27.1
+      },
+      "wacc_inputs": {
+        "beta": 1.12,
+        "equity_risk_premium": 0.055,
+        "pre_tax_cost_of_debt": 0.048,
+        "risk_free_rate": 0.042,
+        "tax_rate": 0.21
+      }
+    },
+    {
+      "capital_structure": {
+        "as_of_date": "2026-05-15",
+        "cash": 11042623336.13,
+        "diluted_shares": 2405800291.1,
+        "net_debt": 3897396471.57,
+        "total_debt": 14940019807.7
+      },
+      "company_name": "Vanguard Total Bond Market ETF",
+      "consensus": {
+        "FY2026": {
+          "ebitda": 22033281385.96,
+          "eps": 2.83,
+          "revenue": 68204438252.55
+        }
+      },
+      "currency": "USD",
+      "industry": "ETF",
+      "market": "US",
+      "model_assumptions": {
+        "base_revenue_growth": 0.045,
+        "target_ebit_margin": 0.32,
+        "terminal_growth": 0.025
+      },
+      "sector": "Fixed Income",
+      "segment_financials": [
+        {
+          "operating_margin": 0.31,
+          "period": "FY2025",
+          "revenue": 48067889816.08,
+          "segment": "Core"
+        },
+        {
+          "operating_margin": 0.42,
+          "period": "FY2025",
+          "revenue": 16888718043.49,
+          "segment": "Growth"
+        }
+      ],
+      "source_trust_level": "trusted_deterministic_provider",
+      "standardized_financials": {
+        "balance_sheet": {
+          "FY2025": {
+            "cash": 11042623336.13,
+            "shareholders_equity": 12341755493.32,
+            "total_debt": 14940019807.7
+          }
+        },
+        "cash_flow": {
+          "FY2025": {
+            "capex": -1948698235.79,
+            "free_cash_flow": 16888718043.49,
+            "operating_cash_flow": 18837416279.28
+          }
+        },
+        "income_statement": {
+          "FY2024": {
+            "ebitda": 19431769241.19,
+            "eps": 2.47,
+            "revenue": 62683126584.49
+          },
+          "FY2025": {
+            "ebitda": 20786114515.06,
+            "eps": 2.62,
+            "revenue": 64956607859.57
+          }
+        }
+      },
+      "ticker": "BND",
+      "valuation_multiples": {
+        "as_of_date": "2026-05-15",
+        "ev_ebitda": 20.4,
+        "ev_revenue": 6.6,
+        "pe": 27.1
+      },
+      "wacc_inputs": {
+        "beta": 1.12,
+        "equity_risk_premium": 0.055,
+        "pre_tax_cost_of_debt": 0.048,
+        "risk_free_rate": 0.042,
+        "tax_rate": 0.21
+      }
+    },
+    {
+      "capital_structure": {
+        "as_of_date": "2026-05-15",
+        "cash": 17161976277.96,
+        "diluted_shares": 3738992653.15,
+        "net_debt": 6057168098.1,
+        "total_debt": 23219144376.06
+      },
+      "company_name": "Kweichow Moutai Co., Ltd.",
+      "consensus": {
+        "FY2026": {
+          "ebitda": 34243190314.61,
+          "eps": 11.68,
+          "revenue": 106000441716.81
+        }
+      },
+      "currency": "CNY",
+      "industry": "Beverages",
+      "market": "CN",
+      "model_assumptions": {
+        "base_revenue_growth": 0.045,
+        "target_ebit_margin": 0.32,
+        "terminal_growth": 0.025
+      },
+      "sector": "Consumer Staples",
+      "segment_financials": [
+        {
+          "operating_margin": 0.31,
+          "period": "FY2025",
+          "revenue": 74705073209.94,
+          "segment": "Core"
+        },
+        {
+          "operating_margin": 0.42,
+          "period": "FY2025",
+          "revenue": 26247728425.12,
+          "segment": "Growth"
+        }
+      ],
+      "source_trust_level": "trusted_deterministic_provider",
+      "standardized_financials": {
+        "balance_sheet": {
+          "FY2025": {
+            "cash": 17161976277.96,
+            "shareholders_equity": 19181032310.66,
+            "total_debt": 23219144376.06
+          }
+        },
+        "cash_flow": {
+          "FY2025": {
+            "capex": -3028584049.05,
+            "free_cash_flow": 26247728425.12,
+            "operating_cash_flow": 29276312474.17
+          }
+        },
+        "income_statement": {
+          "FY2024": {
+            "ebitda": 30200030609.13,
+            "eps": 10.17,
+            "revenue": 97419453577.83
+          },
+          "FY2025": {
+            "ebitda": 32304896523.22,
+            "eps": 10.82,
+            "revenue": 100952801635.06
+          }
+        }
+      },
+      "ticker": "600519.SH",
+      "valuation_multiples": {
+        "as_of_date": "2026-05-15",
+        "ev_ebitda": 20.4,
+        "ev_revenue": 6.6,
+        "pe": 27.1
+      },
+      "wacc_inputs": {
+        "beta": 1.12,
+        "equity_risk_premium": 0.055,
+        "pre_tax_cost_of_debt": 0.048,
+        "risk_free_rate": 0.042,
+        "tax_rate": 0.21
+      }
+    },
+    {
+      "capital_structure": {
+        "as_of_date": "2026-05-15",
+        "cash": 20834362015.23,
+        "diluted_shares": 4539076691.77,
+        "net_debt": 7353304240.67,
+        "total_debt": 28187666255.9
+      },
+      "company_name": "Ping An Bank Co., Ltd.",
+      "consensus": {
+        "FY2026": {
+          "ebitda": 41570679973.91,
+          "eps": 11.6,
+          "revenue": 128682824211.71
+        }
+      },
+      "currency": "CNY",
+      "industry": "Banks",
+      "market": "CN",
+      "model_assumptions": {
+        "base_revenue_growth": 0.045,
+        "target_ebit_margin": 0.32,
+        "terminal_growth": 0.025
+      },
+      "sector": "Financials",
+      "segment_financials": [
+        {
+          "operating_margin": 0.31,
+          "period": "FY2025",
+          "revenue": 90690752301.59,
+          "segment": "Core"
+        },
+        {
+          "operating_margin": 0.42,
+          "period": "FY2025",
+          "revenue": 31864318376.23,
+          "segment": "Growth"
+        }
+      ],
+      "source_trust_level": "trusted_deterministic_provider",
+      "standardized_financials": {
+        "balance_sheet": {
+          "FY2025": {
+            "cash": 20834362015.23,
+            "shareholders_equity": 23285463428.79,
+            "total_debt": 28187666255.9
+          }
+        },
+        "cash_flow": {
+          "FY2025": {
+            "capex": -3676652120.33,
+            "free_cash_flow": 31864318376.23,
+            "operating_cash_flow": 35540970496.57
+          }
+        },
+        "income_statement": {
+          "FY2024": {
+            "ebitda": 36662349393.27,
+            "eps": 10.1,
+            "revenue": 118265643204.1
+          },
+          "FY2025": {
+            "ebitda": 39217622616.9,
+            "eps": 10.74,
+            "revenue": 122555070677.82
+          }
+        }
+      },
+      "ticker": "000001.SZ",
+      "valuation_multiples": {
+        "as_of_date": "2026-05-15",
+        "ev_ebitda": 20.4,
+        "ev_revenue": 6.6,
+        "pe": 27.1
+      },
+      "wacc_inputs": {
+        "beta": 1.12,
+        "equity_risk_premium": 0.055,
+        "pre_tax_cost_of_debt": 0.048,
+        "risk_free_rate": 0.042,
+        "tax_rate": 0.21
+      }
+    },
+    {
+      "capital_structure": {
+        "as_of_date": "2026-05-15",
+        "cash": 19091433643.81,
+        "diluted_shares": 4159353735.03,
+        "net_debt": 6738153050.76,
+        "total_debt": 25829586694.56
+      },
+      "company_name": "Tencent Holdings Limited",
+      "consensus": {
+        "FY2026": {
+          "ebitda": 38093025246.93,
+          "eps": 3.68,
+          "revenue": 117917678388.22
+        }
+      },
+      "currency": "HKD",
+      "industry": "Interactive Media",
+      "market": "HK",
+      "model_assumptions": {
+        "base_revenue_growth": 0.045,
+        "target_ebit_margin": 0.32,
+        "terminal_growth": 0.025
+      },
+      "sector": "Communication Services",
+      "segment_financials": [
+        {
+          "operating_margin": 0.31,
+          "period": "FY2025",
+          "revenue": 83103887625.98,
+          "segment": "Core"
+        },
+        {
+          "operating_margin": 0.42,
+          "period": "FY2025",
+          "revenue": 29198663219.94,
+          "segment": "Growth"
+        }
+      ],
+      "source_trust_level": "trusted_deterministic_provider",
+      "standardized_financials": {
+        "balance_sheet": {
+          "FY2025": {
+            "cash": 19091433643.81,
+            "shareholders_equity": 21337484660.72,
+            "total_debt": 25829586694.56
+          }
+        },
+        "cash_flow": {
+          "FY2025": {
+            "capex": -3369076525.38,
+            "free_cash_flow": 29198663219.94,
+            "operating_cash_flow": 32567739745.32
+          }
+        },
+        "income_statement": {
+          "FY2024": {
+            "ebitda": 33595308085.56,
+            "eps": 3.2,
+            "revenue": 108371961566.31
+          },
+          "FY2025": {
+            "ebitda": 35936816270.69,
+            "eps": 3.41,
+            "revenue": 112302550845.92
+          }
+        }
+      },
+      "ticker": "0700.HK",
+      "valuation_multiples": {
+        "as_of_date": "2026-05-15",
+        "ev_ebitda": 20.4,
+        "ev_revenue": 6.6,
+        "pe": 27.1
+      },
+      "wacc_inputs": {
+        "beta": 1.12,
+        "equity_risk_premium": 0.055,
+        "pre_tax_cost_of_debt": 0.048,
+        "risk_free_rate": 0.042,
+        "tax_rate": 0.21
+      }
+    },
+    {
+      "capital_structure": {
+        "as_of_date": "2026-05-15",
+        "cash": 19637334443.68,
+        "diluted_shares": 4278286371.17,
+        "net_debt": 6930823921.3,
+        "total_debt": 26568158364.98
+      },
+      "company_name": "Alibaba Group Holding Limited",
+      "consensus": {
+        "FY2026": {
+          "ebitda": 39182257901.74,
+          "eps": 9.35,
+          "revenue": 121289418622.72
+        }
+      },
+      "currency": "HKD",
+      "industry": "Internet Retail",
+      "market": "HK",
+      "model_assumptions": {
+        "base_revenue_growth": 0.045,
+        "target_ebit_margin": 0.32,
+        "terminal_growth": 0.025
+      },
+      "sector": "Consumer Discretionary",
+      "segment_financials": [
+        {
+          "operating_margin": 0.31,
+          "period": "FY2025",
+          "revenue": 85480161696.01,
+          "segment": "Core"
+        },
+        {
+          "operating_margin": 0.42,
+          "period": "FY2025",
+          "revenue": 30033570325.63,
+          "segment": "Growth"
+        }
+      ],
+      "source_trust_level": "trusted_deterministic_provider",
+      "standardized_financials": {
+        "balance_sheet": {
+          "FY2025": {
+            "cash": 19637334443.68,
+            "shareholders_equity": 21947609084.11,
+            "total_debt": 26568158364.98
+          }
+        },
+        "cash_flow": {
+          "FY2025": {
+            "capex": -3465411960.65,
+            "free_cash_flow": 30033570325.63,
+            "operating_cash_flow": 33498982286.28
+          }
+        },
+        "income_statement": {
+          "FY2024": {
+            "ebitda": 34555932934.27,
+            "eps": 8.14,
+            "revenue": 111470751400.88
+          },
+          "FY2025": {
+            "ebitda": 36964394246.92,
+            "eps": 8.66,
+            "revenue": 115513732021.64
+          }
+        }
+      },
+      "ticker": "9988.HK",
+      "valuation_multiples": {
+        "as_of_date": "2026-05-15",
+        "ev_ebitda": 20.4,
+        "ev_revenue": 6.6,
+        "pe": 27.1
+      },
+      "wacc_inputs": {
+        "beta": 1.12,
+        "equity_risk_premium": 0.055,
+        "pre_tax_cost_of_debt": 0.048,
+        "risk_free_rate": 0.042,
+        "tax_rate": 0.21
+      }
+    }
+  ],
+  "schema_version": "company_data_world_v1",
+  "world_id": "financial_services_seed42"
+}

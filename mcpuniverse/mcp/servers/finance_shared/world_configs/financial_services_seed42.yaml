@@ -1,0 +1,43 @@
+world_id: financial_services_seed42
+seed: 42
+as_of_date: "2026-05-15"
+base_currency: USD
+description: Deterministic financial-services benchmark world for P0/P1 MCP capability coverage.
+
+clients:
+  count: 8
+
+accounts:
+  count: 12
+  cash_range: [50000, 2000000]
+
+holdings:
+  tickers:
+    us: [AAPL, MSFT, NVDA, JPM, BND]
+    cn: [600519.SH, 000001.SZ]
+    hk: [0700.HK, 9988.HK]
+  holdings_per_account: [2, 6]
+
+orders:
+  draft_count: 8
+  historical_count: 16
+
+documents:
+  research_count: 10
+  filing_count: 8
+  email_count: 8
+  gp_package_count: 4
+
+transactions:
+  precedent_deal_count: 12
+
+fixed_income:
+  bonds: 8
+  curves: 4
+
+fx:
+  currency_pairs: [USDJPY, USDHKD, USDCNY, EURUSD]
+
+derivatives:
+  option_templates: 8
+  vol_surfaces: 4

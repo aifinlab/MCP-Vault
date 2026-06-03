@@ -1,0 +1,24 @@
+{
+  "schema_version": "sector_data_world_v1",
+  "sectors": [
+    {
+      "five_year_cagr": 0.11,
+      "key_drivers": [
+        "cloud migration",
+        "AI infrastructure demand"
+      ],
+      "market_size": 900000000000.0,
+      "sector": "software"
+    },
+    {
+      "five_year_cagr": 0.06,
+      "key_drivers": [
+        "capital markets activity",
+        "rate cycle"
+      ],
+      "market_size": 700000000000.0,
+      "sector": "financials"
+    }
+  ],
+  "world_id": "financial_services_seed42"
+}

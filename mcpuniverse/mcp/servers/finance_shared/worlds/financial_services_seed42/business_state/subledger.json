@@ -1,0 +1,59 @@
+{
+  "break_traces": [
+    {
+      "action": "monitor",
+      "break_id": "BRK-FS-0001",
+      "expected_clear_date": "2026-05-16",
+      "gl_reference": "JE-FS-0001",
+      "owner": "ops",
+      "root_cause": "GL posted on trade date while subledger reflects settle-date accrued interest.",
+      "subledger_reference": "TRD-FI-FS-0001"
+    }
+  ],
+  "positions": [
+    {
+      "as_of_date": "2026-05-15",
+      "asset_class": "fixed_income",
+      "base_amount": 982500.0,
+      "position_id": "SUB-POS-FS-0001",
+      "quantity": 1000000.0,
+      "security_id": "US91282CJJ18"
+    }
+  ],
+  "reconciliation_records": [
+    {
+      "account": "11420",
+      "asset_class": "fixed_income",
+      "break_id": "BRK-FS-0001",
+      "difference": -2500.0,
+      "entity_id": "ENT-FS-0001",
+      "gl_balance": 980000.0,
+      "owner": "ops",
+      "period": "2026-05",
+      "recommended_action": "monitor",
+      "subledger_balance": 982500.0,
+      "suspected_cause": "timing"
+    }
+  ],
+  "schema_version": "subledger_world_v1",
+  "trade_lifecycles": [
+    {
+      "settle_date": "2026-05-16",
+      "source_feed": "trusted_subledger",
+      "status": "settled",
+      "trade_date": "2026-05-14",
+      "trade_id": "TRD-FI-FS-0001"
+    }
+  ],
+  "transactions": [
+    {
+      "asset_class": "fixed_income",
+      "base_amount": 982500.0,
+      "quantity": 1000000.0,
+      "security_id": "US91282CJJ18",
+      "trade_date": "2026-05-14",
+      "trade_id": "TRD-FI-FS-0001"
+    }
+  ],
+  "world_id": "financial_services_seed42"
+}

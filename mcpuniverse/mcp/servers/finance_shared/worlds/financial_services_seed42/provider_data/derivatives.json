@@ -1,0 +1,194 @@
+{
+  "equity_vol_surfaces": [
+    {
+      "as_of_date": "2026-05-15",
+      "source_trust_level": "trusted_deterministic_provider",
+      "surface": [
+        {
+          "atm_vol": 0.16,
+          "call_25_delta_vol": 0.145,
+          "put_25_delta_vol": 0.19,
+          "tenor": "1M"
+        },
+        {
+          "atm_vol": 0.18,
+          "call_25_delta_vol": 0.16,
+          "put_25_delta_vol": 0.21,
+          "tenor": "3M"
+        }
+      ],
+      "underlying": ".SPX"
+    },
+    {
+      "as_of_date": "2026-05-15",
+      "source_trust_level": "trusted_deterministic_provider",
+      "surface": [
+        {
+          "atm_vol": 0.419,
+          "call_25_delta_vol": 0.244,
+          "put_25_delta_vol": 0.354,
+          "tenor": "1M"
+        }
+      ],
+      "underlying": "0700.HK"
+    },
+    {
+      "as_of_date": "2026-05-15",
+      "source_trust_level": "trusted_deterministic_provider",
+      "surface": [
+        {
+          "atm_vol": 0.245,
+          "call_25_delta_vol": 0.189,
+          "put_25_delta_vol": 0.27,
+          "tenor": "1M"
+        }
+      ],
+      "underlying": "0700.HK"
+    },
+    {
+      "as_of_date": "2026-05-15",
+      "source_trust_level": "trusted_deterministic_provider",
+      "surface": [
+        {
+          "atm_vol": 0.256,
+          "call_25_delta_vol": 0.388,
+          "put_25_delta_vol": 0.408,
+          "tenor": "1M"
+        }
+      ],
+      "underlying": "MSFT"
+    }
+  ],
+  "option_templates": [
+    {
+      "source_trust_level": "trusted_deterministic_provider",
+      "templates": [
+        {
+          "exercise": "european",
+          "option_type": "call"
+        },
+        {
+          "exercise": "european",
+          "option_type": "put"
+        }
+      ],
+      "underlying": ".SPX"
+    },
+    {
+      "source_trust_level": "trusted_deterministic_provider",
+      "templates": [
+        {
+          "exercise": "american",
+          "option_type": "call"
+        },
+        {
+          "exercise": "american",
+          "option_type": "put"
+        }
+      ],
+      "underlying": "NVDA"
+    },
+    {
+      "source_trust_level": "trusted_deterministic_provider",
+      "templates": [
+        {
+          "exercise": "american",
+          "option_type": "call"
+        },
+        {
+          "exercise": "american",
+          "option_type": "put"
+        }
+      ],
+      "underlying": "AAPL"
+    },
+    {
+      "source_trust_level": "trusted_deterministic_provider",
+      "templates": [
+        {
+          "exercise": "american",
+          "option_type": "call"
+        },
+        {
+          "exercise": "american",
+          "option_type": "put"
+        }
+      ],
+      "underlying": "AAPL"
+    },
+    {
+      "source_trust_level": "trusted_deterministic_provider",
+      "templates": [
+        {
+          "exercise": "american",
+          "option_type": "call"
+        },
+        {
+          "exercise": "american",
+          "option_type": "put"
+        }
+      ],
+      "underlying": "AAPL"
+    },
+    {
+      "source_trust_level": "trusted_deterministic_provider",
+      "templates": [
+        {
+          "exercise": "american",
+          "option_type": "call"
+        },
+        {
+          "exercise": "american",
+          "option_type": "put"
+        }
+      ],
+      "underlying": "NVDA"
+    },
+    {
+      "source_trust_level": "trusted_deterministic_provider",
+      "templates": [
+        {
+          "exercise": "american",
+          "option_type": "call"
+        },
+        {
+          "exercise": "american",
+          "option_type": "put"
+        }
+      ],
+      "underlying": "MSFT"
+    },
+    {
+      "source_trust_level": "trusted_deterministic_provider",
+      "templates": [
+        {
+          "exercise": "american",
+          "option_type": "call"
+        },
+        {
+          "exercise": "american",
+          "option_type": "put"
+        }
+      ],
+      "underlying": "MSFT"
+    }
+  ],
+  "option_values": [
+    {
+      "delta": 0.54,
+      "expiry": "2026-08-21",
+      "gamma": 0.0008,
+      "implied_vol": 0.18,
+      "option_id": "OPT-FS-SPX-5000C-202608",
+      "option_type": "call",
+      "premium": 215.5,
+      "source_trust_level": "trusted_deterministic_provider",
+      "strike": 5000.0,
+      "theta": -2.1,
+      "underlying": ".SPX",
+      "vega": 8.4
+    }
+  ],
+  "schema_version": "derivatives_world_v1",
+  "world_id": "financial_services_seed42"
+}

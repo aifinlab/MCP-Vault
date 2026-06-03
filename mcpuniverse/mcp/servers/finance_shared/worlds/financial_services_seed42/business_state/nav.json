@@ -1,0 +1,33 @@
+{
+  "lp_statements": [
+    {
+      "as_of_date": "2026-05-15",
+      "capital_account": {
+        "beginning_balance": 10000000.0,
+        "contributions": 500000.0,
+        "distributions": 250000.0,
+        "ending_balance_reported": 10500000.0,
+        "fees": 50000.0,
+        "net_gain_loss": 300000.0
+      },
+      "fund_id": "FUND-FS-III",
+      "lp_id": "LP-FS-0001",
+      "statement_id": "LP-STMT-FS-0001"
+    }
+  ],
+  "nav_packs": [
+    {
+      "as_of_date": "2026-05-15",
+      "fund_id": "FUND-FS-III",
+      "fund_pnl_components": {
+        "fund_expenses": 250000.0,
+        "management_fee": 500000.0,
+        "realized_pnl": 1500000.0,
+        "unrealized_pnl": 2500000.0
+      },
+      "net_asset_value": 120000000.0
+    }
+  ],
+  "schema_version": "nav_world_v1",
+  "world_id": "financial_services_seed42"
+}

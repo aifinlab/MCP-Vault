@@ -1,0 +1,362 @@
+{
+  "finance-market-data": {
+    "stdio": {
+      "command": "python",
+      "args": [
+        "-m",
+        "mcpuniverse.mcp.servers.finance_market_data"
+      ]
+    },
+    "sse": {
+      "command": "python",
+      "args": [
+        "-m",
+        "mcpuniverse.mcp.servers.finance_market_data",
+        "--transport",
+        "sse",
+        "--port",
+        "{{PORT}}"
+      ]
+    }
+  },
+  "finance-macro-data": {
+    "stdio": {
+      "command": "python",
+      "args": [
+        "-m",
+        "mcpuniverse.mcp.servers.finance_macro_data"
+      ]
+    },
+    "sse": {
+      "command": "python",
+      "args": [
+        "-m",
+        "mcpuniverse.mcp.servers.finance_macro_data",
+        "--transport",
+        "sse",
+        "--port",
+        "{{PORT}}"
+      ]
+    }
+  },
+  "finance-portfolio": {
+    "stdio": {
+      "command": "python",
+      "args": [
+        "-m",
+        "mcpuniverse.mcp.servers.finance_portfolio"
+      ]
+    },
+    "sse": {
+      "command": "python",
+      "args": [
+        "-m",
+        "mcpuniverse.mcp.servers.finance_portfolio",
+        "--transport",
+        "sse",
+        "--port",
+        "{{PORT}}"
+      ]
+    }
+  },
+  "finance-risk": {
+    "stdio": {
+      "command": "python",
+      "args": [
+        "-m",
+        "mcpuniverse.mcp.servers.finance_risk"
+      ]
+    },
+    "sse": {
+      "command": "python",
+      "args": [
+        "-m",
+        "mcpuniverse.mcp.servers.finance_risk",
+        "--transport",
+        "sse",
+        "--port",
+        "{{PORT}}"
+      ]
+    }
+  },
+  "finance-compliance": {
+    "stdio": {
+      "command": "python",
+      "args": [
+        "-m",
+        "mcpuniverse.mcp.servers.finance_compliance"
+      ]
+    },
+    "sse": {
+      "command": "python",
+      "args": [
+        "-m",
+        "mcpuniverse.mcp.servers.finance_compliance",
+        "--transport",
+        "sse",
+        "--port",
+        "{{PORT}}"
+      ]
+    }
+  },
+  "finance-order-draft": {
+    "stdio": {
+      "command": "python",
+      "args": [
+        "-m",
+        "mcpuniverse.mcp.servers.finance_order_draft"
+      ]
+    },
+    "sse": {
+      "command": "python",
+      "args": [
+        "-m",
+        "mcpuniverse.mcp.servers.finance_order_draft",
+        "--transport",
+        "sse",
+        "--port",
+        "{{PORT}}"
+      ]
+    }
+  },
+  "finance-audit": {
+    "stdio": {
+      "command": "python",
+      "args": [
+        "-m",
+        "mcpuniverse.mcp.servers.finance_audit"
+      ]
+    },
+    "sse": {
+      "command": "python",
+      "args": [
+        "-m",
+        "mcpuniverse.mcp.servers.finance_audit",
+        "--transport",
+        "sse",
+        "--port",
+        "{{PORT}}"
+      ]
+    }
+  },
+  "finance-crm": {
+    "stdio": {
+      "command": "python",
+      "args": [
+        "-m",
+        "mcpuniverse.mcp.servers.finance_crm"
+      ]
+    },
+    "sse": {
+      "command": "python",
+      "args": [
+        "-m",
+        "mcpuniverse.mcp.servers.finance_crm",
+        "--transport",
+        "sse",
+        "--port",
+        "{{PORT}}"
+      ]
+    }
+  },
+  "finance-kyc-screening": {
+    "stdio": {
+      "command": "python",
+      "args": [
+        "-m",
+        "mcpuniverse.mcp.servers.finance_kyc_screening"
+      ]
+    },
+    "sse": {
+      "command": "python",
+      "args": [
+        "-m",
+        "mcpuniverse.mcp.servers.finance_kyc_screening",
+        "--transport",
+        "sse",
+        "--port",
+        "{{PORT}}"
+      ]
+    }
+  },
+  "finance-ledger": {
+    "stdio": {
+      "command": "python",
+      "args": [
+        "-m",
+        "mcpuniverse.mcp.servers.finance_ledger"
+      ]
+    },
+    "sse": {
+      "command": "python",
+      "args": [
+        "-m",
+        "mcpuniverse.mcp.servers.finance_ledger",
+        "--transport",
+        "sse",
+        "--port",
+        "{{PORT}}"
+      ]
+    }
+  },
+  "finance-subledger": {
+    "stdio": {
+      "command": "python",
+      "args": [
+        "-m",
+        "mcpuniverse.mcp.servers.finance_subledger"
+      ]
+    },
+    "sse": {
+      "command": "python",
+      "args": [
+        "-m",
+        "mcpuniverse.mcp.servers.finance_subledger",
+        "--transport",
+        "sse",
+        "--port",
+        "{{PORT}}"
+      ]
+    }
+  },
+  "finance-nav": {
+    "stdio": {
+      "command": "python",
+      "args": [
+        "-m",
+        "mcpuniverse.mcp.servers.finance_nav"
+      ]
+    },
+    "sse": {
+      "command": "python",
+      "args": [
+        "-m",
+        "mcpuniverse.mcp.servers.finance_nav",
+        "--transport",
+        "sse",
+        "--port",
+        "{{PORT}}"
+      ]
+    }
+  },
+  "finance-private-markets": {
+    "stdio": {
+      "command": "python",
+      "args": [
+        "-m",
+        "mcpuniverse.mcp.servers.finance_private_markets"
+      ]
+    },
+    "sse": {
+      "command": "python",
+      "args": [
+        "-m",
+        "mcpuniverse.mcp.servers.finance_private_markets",
+        "--transport",
+        "sse",
+        "--port",
+        "{{PORT}}"
+      ]
+    }
+  },
+  "finance-document-store": {
+    "stdio": {
+      "command": "python",
+      "args": [
+        "-m",
+        "mcpuniverse.mcp.servers.finance_document_store"
+      ]
+    },
+    "sse": {
+      "command": "python",
+      "args": [
+        "-m",
+        "mcpuniverse.mcp.servers.finance_document_store",
+        "--transport",
+        "sse",
+        "--port",
+        "{{PORT}}"
+      ]
+    }
+  },
+  "finance-company-data": {
+    "stdio": {
+      "command": "python",
+      "args": [
+        "-m",
+        "mcpuniverse.mcp.servers.finance_company_data"
+      ]
+    },
+    "sse": {
+      "command": "python",
+      "args": [
+        "-m",
+        "mcpuniverse.mcp.servers.finance_company_data",
+        "--transport",
+        "sse",
+        "--port",
+        "{{PORT}}"
+      ]
+    }
+  },
+  "finance-transactions": {
+    "stdio": {
+      "command": "python",
+      "args": [
+        "-m",
+        "mcpuniverse.mcp.servers.finance_transactions"
+      ]
+    },
+    "sse": {
+      "command": "python",
+      "args": [
+        "-m",
+        "mcpuniverse.mcp.servers.finance_transactions",
+        "--transport",
+        "sse",
+        "--port",
+        "{{PORT}}"
+      ]
+    }
+  },
+  "finance-rates-fixed-income": {
+    "stdio": {
+      "command": "python",
+      "args": [
+        "-m",
+        "mcpuniverse.mcp.servers.finance_rates_fixed_income"
+      ]
+    },
+    "sse": {
+      "command": "python",
+      "args": [
+        "-m",
+        "mcpuniverse.mcp.servers.finance_rates_fixed_income",
+        "--transport",
+        "sse",
+        "--port",
+        "{{PORT}}"
+      ]
+    }
+  },
+  "finance-fx-derivatives": {
+    "stdio": {
+      "command": "python",
+      "args": [
+        "-m",
+        "mcpuniverse.mcp.servers.finance_fx_derivatives"
+      ]
+    },
+    "sse": {
+      "command": "python",
+      "args": [
+        "-m",
+        "mcpuniverse.mcp.servers.finance_fx_derivatives",
+        "--transport",
+        "sse",
+        "--port",
+        "{{PORT}}"
+      ]
+    }
+  }
+}

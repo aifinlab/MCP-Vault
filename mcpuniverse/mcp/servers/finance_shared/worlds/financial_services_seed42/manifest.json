@@ -1,0 +1,33 @@
+{
+  "as_of_date": "2026-05-15",
+  "base_currency": "USD",
+  "business_state": [
+    "clients",
+    "accounts",
+    "orders",
+    "audit",
+    "crm",
+    "kyc",
+    "ledger",
+    "subledger",
+    "nav",
+    "private_markets"
+  ],
+  "config_sha256": "65b086cf7fc855f1f7772ca55ea9f2c61866ce3075c30e2fce1a8b135f9bca81",
+  "description": "Deterministic financial-services benchmark world for P0/P1 MCP capability coverage.",
+  "generator_version": "finance_world_generator_v1",
+  "provider_data": [
+    "company_data",
+    "earnings",
+    "source_documents",
+    "transactions",
+    "sector_data",
+    "rates_curves",
+    "fixed_income",
+    "fx",
+    "derivatives"
+  ],
+  "schema_version": "benchmark_world_v1",
+  "seed": 42,
+  "world_id": "financial_services_seed42"
+}

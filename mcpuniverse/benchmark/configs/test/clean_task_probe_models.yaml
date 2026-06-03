@@ -1,0 +1,28 @@
+kind: llm
+spec:
+  name: probe-judge-openai-gpt41
+  type: openai
+  config:
+    model_name: gpt-4.1
+    temperature: 0.0
+    max_completion_tokens: 4096
+
+---
+kind: llm
+spec:
+  name: probe-claude-sonnet4
+  type: claude
+  config:
+    model_name: claude-sonnet-4-20250514
+    temperature: 0.0
+    max_completion_tokens: 4096
+
+---
+kind: llm
+spec:
+  name: probe-gemini-3-pro
+  type: gemini
+  config:
+    model_name: gemini-3-pro-preview
+    temperature: 0.0
+    max_completion_tokens: 4096

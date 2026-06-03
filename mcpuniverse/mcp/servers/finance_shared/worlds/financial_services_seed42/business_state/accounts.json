@@ -1,0 +1,780 @@
+{
+  "accounts": [
+    {
+      "account_id": "ACC-FS-0001",
+      "account_type": "taxable brokerage",
+      "base_currency": "USD",
+      "cash": 50000.0,
+      "client_id": "CLIENT-FS-0001",
+      "holdings": [
+        {
+          "cost_basis": 180.0,
+          "market_value": 19500.0,
+          "quantity": 100,
+          "ticker": "AAPL"
+        },
+        {
+          "cost_basis": 430.0,
+          "market_value": 36000.0,
+          "quantity": 80,
+          "ticker": "MSFT"
+        },
+        {
+          "cost_basis": 74.0,
+          "market_value": 87000.0,
+          "quantity": 1200,
+          "ticker": "BND"
+        }
+      ],
+      "model_portfolio": {
+        "model_id": "MODEL-BALANCED-60-40",
+        "target_allocations": {
+          "AAPL": 0.12,
+          "BND": 0.35,
+          "CASH": 0.35,
+          "MSFT": 0.18
+        }
+      },
+      "recent_trades": [
+        {
+          "quantity": 10,
+          "side": "BUY",
+          "ticker": "AAPL",
+          "trade_date": "2026-05-01",
+          "trade_id": "TRD-FS-0001",
+          "wash_sale_relevant": true
+        }
+      ],
+      "risk_profile": "moderate",
+      "tax_lots": [
+        {
+          "acquired_date": "2025-08-14",
+          "cost_basis": 210.0,
+          "lot_id": "LOT-FS-0001",
+          "market_price": 195.0,
+          "quantity": 40,
+          "ticker": "AAPL",
+          "unrealized_gain_loss": -600.0
+        },
+        {
+          "acquired_date": "2024-11-03",
+          "cost_basis": 430.0,
+          "lot_id": "LOT-FS-0002",
+          "market_price": 450.0,
+          "quantity": 80,
+          "ticker": "MSFT",
+          "unrealized_gain_loss": 1600.0
+        }
+      ],
+      "total_market_value": 250000.0
+    },
+    {
+      "account_id": "ACC-FS-0002",
+      "account_type": "institutional mandate",
+      "base_currency": "HKD",
+      "cash": 1621347.54,
+      "client_id": "CLIENT-FS-0002",
+      "holdings": [
+        {
+          "cost_basis": 215.88,
+          "market_value": 251771.68,
+          "quantity": 1136,
+          "ticker": "0700.HK"
+        },
+        {
+          "cost_basis": 393.29,
+          "market_value": 190641.63,
+          "quantity": 589,
+          "ticker": "9988.HK"
+        }
+      ],
+      "model_portfolio": {
+        "model_id": "MODEL-GENERATED-BALANCED",
+        "target_allocations": {
+          "0700.HK": 0.35,
+          "9988.HK": 0.35,
+          "CASH": 0.3
+        }
+      },
+      "recent_trades": [
+        {
+          "quantity": 7,
+          "side": "SELL",
+          "ticker": "0700.HK",
+          "trade_date": "2026-04-19",
+          "trade_id": "TRD-FS-0002-01",
+          "wash_sale_relevant": false
+        }
+      ],
+      "risk_profile": "conservative",
+      "tax_lots": [
+        {
+          "acquired_date": "2025-04-21",
+          "cost_basis": 112.25,
+          "lot_id": "LOT-FS-0002-01",
+          "market_price": 91.87,
+          "quantity": 53,
+          "ticker": "0700.HK",
+          "unrealized_gain_loss": -1080.14
+        },
+        {
+          "acquired_date": "2025-04-13",
+          "cost_basis": 64.11,
+          "lot_id": "LOT-FS-0002-02",
+          "market_price": 48.29,
+          "quantity": 23,
+          "ticker": "9988.HK",
+          "unrealized_gain_loss": -363.86
+        }
+      ],
+      "total_market_value": 2063760.85
+    },
+    {
+      "account_id": "ACC-FS-0003",
+      "account_type": "ira",
+      "base_currency": "HKD",
+      "cash": 139357.55,
+      "client_id": "CLIENT-FS-0003",
+      "holdings": [
+        {
+          "cost_basis": 158.4,
+          "market_value": 202043.5,
+          "quantity": 1150,
+          "ticker": "9988.HK"
+        },
+        {
+          "cost_basis": 287.7,
+          "market_value": 250161.6,
+          "quantity": 760,
+          "ticker": "0700.HK"
+        }
+      ],
+      "model_portfolio": {
+        "model_id": "MODEL-GENERATED-BALANCED",
+        "target_allocations": {
+          "0700.HK": 0.35,
+          "9988.HK": 0.35,
+          "CASH": 0.3
+        }
+      },
+      "recent_trades": [
+        {
+          "quantity": 28,
+          "side": "SELL",
+          "ticker": "9988.HK",
+          "trade_date": "2026-05-09",
+          "trade_id": "TRD-FS-0003-01",
+          "wash_sale_relevant": false
+        }
+      ],
+      "risk_profile": "growth",
+      "tax_lots": [
+        {
+          "acquired_date": "2025-08-05",
+          "cost_basis": 115.24,
+          "lot_id": "LOT-FS-0003-01",
+          "market_price": 85.73,
+          "quantity": 108,
+          "ticker": "9988.HK",
+          "unrealized_gain_loss": -3187.08
+        },
+        {
+          "acquired_date": "2024-06-19",
+          "cost_basis": 66.26,
+          "lot_id": "LOT-FS-0003-02",
+          "market_price": 56.51,
+          "quantity": 120,
+          "ticker": "0700.HK",
+          "unrealized_gain_loss": -1170.0
+        }
+      ],
+      "total_market_value": 591562.65
+    },
+    {
+      "account_id": "ACC-FS-0004",
+      "account_type": "trust",
+      "base_currency": "USD",
+      "cash": 1830615.44,
+      "client_id": "CLIENT-FS-0004",
+      "holdings": [
+        {
+          "cost_basis": 235.33,
+          "market_value": 78655.26,
+          "quantity": 354,
+          "ticker": "AAPL"
+        },
+        {
+          "cost_basis": 124.92,
+          "market_value": 140441.2,
+          "quantity": 1160,
+          "ticker": "MSFT"
+        },
+        {
+          "cost_basis": 129.22,
+          "market_value": 14454.58,
+          "quantity": 134,
+          "ticker": "NVDA"
+        },
+        {
+          "cost_basis": 207.53,
+          "market_value": 117542.34,
+          "quantity": 666,
+          "ticker": "BND"
+        }
+      ],
+      "model_portfolio": {
+        "model_id": "MODEL-GENERATED-BALANCED",
+        "target_allocations": {
+          "AAPL": 0.175,
+          "BND": 0.175,
+          "CASH": 0.3,
+          "MSFT": 0.175,
+          "NVDA": 0.175
+        }
+      },
+      "recent_trades": [
+        {
+          "quantity": 42,
+          "side": "SELL",
+          "ticker": "AAPL",
+          "trade_date": "2026-04-21",
+          "trade_id": "TRD-FS-0004-01",
+          "wash_sale_relevant": false
+        }
+      ],
+      "risk_profile": "moderate",
+      "tax_lots": [
+        {
+          "acquired_date": "2024-12-17",
+          "cost_basis": 210.41,
+          "lot_id": "LOT-FS-0004-01",
+          "market_price": 193.07,
+          "quantity": 37,
+          "ticker": "AAPL",
+          "unrealized_gain_loss": -641.58
+        },
+        {
+          "acquired_date": "2024-09-03",
+          "cost_basis": 108.87,
+          "lot_id": "LOT-FS-0004-02",
+          "market_price": 90.98,
+          "quantity": 28,
+          "ticker": "MSFT",
+          "unrealized_gain_loss": -500.92
+        }
+      ],
+      "total_market_value": 2181708.82
+    },
+    {
+      "account_id": "ACC-FS-0005",
+      "account_type": "institutional mandate",
+      "base_currency": "HKD",
+      "cash": 361964.9,
+      "client_id": "CLIENT-FS-0005",
+      "holdings": [
+        {
+          "cost_basis": 256.83,
+          "market_value": 67066.02,
+          "quantity": 303,
+          "ticker": "9988.HK"
+        },
+        {
+          "cost_basis": 416.8,
+          "market_value": 43045.28,
+          "quantity": 116,
+          "ticker": "0700.HK"
+        }
+      ],
+      "model_portfolio": {
+        "model_id": "MODEL-GENERATED-BALANCED",
+        "target_allocations": {
+          "0700.HK": 0.35,
+          "9988.HK": 0.35,
+          "CASH": 0.3
+        }
+      },
+      "recent_trades": [
+        {
+          "quantity": 39,
+          "side": "BUY",
+          "ticker": "9988.HK",
+          "trade_date": "2026-04-23",
+          "trade_id": "TRD-FS-0005-01",
+          "wash_sale_relevant": false
+        }
+      ],
+      "risk_profile": "conservative",
+      "tax_lots": [
+        {
+          "acquired_date": "2024-12-07",
+          "cost_basis": 56.52,
+          "lot_id": "LOT-FS-0005-01",
+          "market_price": 51.43,
+          "quantity": 86,
+          "ticker": "9988.HK",
+          "unrealized_gain_loss": -437.74
+        },
+        {
+          "acquired_date": "2026-03-20",
+          "cost_basis": 105.37,
+          "lot_id": "LOT-FS-0005-02",
+          "market_price": 105.82,
+          "quantity": 77,
+          "ticker": "0700.HK",
+          "unrealized_gain_loss": 34.65
+        }
+      ],
+      "total_market_value": 472076.2
+    },
+    {
+      "account_id": "ACC-FS-0006",
+      "account_type": "taxable brokerage",
+      "base_currency": "HKD",
+      "cash": 1039979.27,
+      "client_id": "CLIENT-FS-0006",
+      "holdings": [
+        {
+          "cost_basis": 96.96,
+          "market_value": 72481.5,
+          "quantity": 910,
+          "ticker": "0700.HK"
+        },
+        {
+          "cost_basis": 467.21,
+          "market_value": 305700.33,
+          "quantity": 559,
+          "ticker": "9988.HK"
+        }
+      ],
+      "model_portfolio": {
+        "model_id": "MODEL-GENERATED-BALANCED",
+        "target_allocations": {
+          "0700.HK": 0.35,
+          "9988.HK": 0.35,
+          "CASH": 0.3
+        }
+      },
+      "recent_trades": [
+        {
+          "quantity": 25,
+          "side": "BUY",
+          "ticker": "0700.HK",
+          "trade_date": "2026-04-25",
+          "trade_id": "TRD-FS-0006-01",
+          "wash_sale_relevant": false
+        }
+      ],
+      "risk_profile": "aggressive",
+      "tax_lots": [
+        {
+          "acquired_date": "2024-07-16",
+          "cost_basis": 117.6,
+          "lot_id": "LOT-FS-0006-01",
+          "market_price": 123.65,
+          "quantity": 90,
+          "ticker": "0700.HK",
+          "unrealized_gain_loss": 544.5
+        },
+        {
+          "acquired_date": "2024-09-25",
+          "cost_basis": 79.74,
+          "lot_id": "LOT-FS-0006-02",
+          "market_price": 89.26,
+          "quantity": 35,
+          "ticker": "9988.HK",
+          "unrealized_gain_loss": 333.2
+        }
+      ],
+      "total_market_value": 1418161.1
+    },
+    {
+      "account_id": "ACC-FS-0007",
+      "account_type": "ira",
+      "base_currency": "USD",
+      "cash": 184964.41,
+      "client_id": "CLIENT-FS-0007",
+      "holdings": [
+        {
+          "cost_basis": 51.36,
+          "market_value": 32058.6,
+          "quantity": 510,
+          "ticker": "NVDA"
+        },
+        {
+          "cost_basis": 63.97,
+          "market_value": 12083.56,
+          "quantity": 181,
+          "ticker": "BND"
+        }
+      ],
+      "model_portfolio": {
+        "model_id": "MODEL-GENERATED-BALANCED",
+        "target_allocations": {
+          "BND": 0.35,
+          "CASH": 0.3,
+          "NVDA": 0.35
+        }
+      },
+      "recent_trades": [
+        {
+          "quantity": 24,
+          "side": "BUY",
+          "ticker": "NVDA",
+          "trade_date": "2026-04-22",
+          "trade_id": "TRD-FS-0007-01",
+          "wash_sale_relevant": false
+        }
+      ],
+      "risk_profile": "conservative",
+      "tax_lots": [
+        {
+          "acquired_date": "2025-10-13",
+          "cost_basis": 211.54,
+          "lot_id": "LOT-FS-0007-01",
+          "market_price": 258.24,
+          "quantity": 26,
+          "ticker": "NVDA",
+          "unrealized_gain_loss": 1214.2
+        },
+        {
+          "acquired_date": "2025-08-27",
+          "cost_basis": 177.2,
+          "lot_id": "LOT-FS-0007-02",
+          "market_price": 183.16,
+          "quantity": 43,
+          "ticker": "BND",
+          "unrealized_gain_loss": 256.28
+        }
+      ],
+      "total_market_value": 229106.57
+    },
+    {
+      "account_id": "ACC-FS-0008",
+      "account_type": "taxable brokerage",
+      "base_currency": "HKD",
+      "cash": 479423.9,
+      "client_id": "CLIENT-FS-0008",
+      "holdings": [
+        {
+          "cost_basis": 137.8,
+          "market_value": 31252.35,
+          "quantity": 267,
+          "ticker": "9988.HK"
+        },
+        {
+          "cost_basis": 292.68,
+          "market_value": 17071.74,
+          "quantity": 63,
+          "ticker": "0700.HK"
+        }
+      ],
+      "model_portfolio": {
+        "model_id": "MODEL-GENERATED-BALANCED",
+        "target_allocations": {
+          "0700.HK": 0.35,
+          "9988.HK": 0.35,
+          "CASH": 0.3
+        }
+      },
+      "recent_trades": [
+        {
+          "quantity": 39,
+          "side": "SELL",
+          "ticker": "9988.HK",
+          "trade_date": "2026-05-08",
+          "trade_id": "TRD-FS-0008-01",
+          "wash_sale_relevant": true
+        }
+      ],
+      "risk_profile": "moderate",
+      "tax_lots": [
+        {
+          "acquired_date": "2026-02-27",
+          "cost_basis": 204.09,
+          "lot_id": "LOT-FS-0008-01",
+          "market_price": 168.56,
+          "quantity": 100,
+          "ticker": "9988.HK",
+          "unrealized_gain_loss": -3553.0
+        },
+        {
+          "acquired_date": "2025-06-19",
+          "cost_basis": 125.91,
+          "lot_id": "LOT-FS-0008-02",
+          "market_price": 123.74,
+          "quantity": 120,
+          "ticker": "0700.HK",
+          "unrealized_gain_loss": -260.4
+        }
+      ],
+      "total_market_value": 527747.99
+    },
+    {
+      "account_id": "ACC-FS-0009",
+      "account_type": "taxable brokerage",
+      "base_currency": "HKD",
+      "cash": 851649.44,
+      "client_id": "CLIENT-FS-0001",
+      "holdings": [
+        {
+          "cost_basis": 392.41,
+          "market_value": 351876.2,
+          "quantity": 988,
+          "ticker": "9988.HK"
+        },
+        {
+          "cost_basis": 324.84,
+          "market_value": 69609.58,
+          "quantity": 218,
+          "ticker": "0700.HK"
+        }
+      ],
+      "model_portfolio": {
+        "model_id": "MODEL-GENERATED-BALANCED",
+        "target_allocations": {
+          "0700.HK": 0.35,
+          "9988.HK": 0.35,
+          "CASH": 0.3
+        }
+      },
+      "recent_trades": [
+        {
+          "quantity": 17,
+          "side": "BUY",
+          "ticker": "9988.HK",
+          "trade_date": "2026-05-08",
+          "trade_id": "TRD-FS-0009-01",
+          "wash_sale_relevant": false
+        }
+      ],
+      "risk_profile": "moderate",
+      "tax_lots": [
+        {
+          "acquired_date": "2026-01-28",
+          "cost_basis": 209.9,
+          "lot_id": "LOT-FS-0009-01",
+          "market_price": 221.53,
+          "quantity": 96,
+          "ticker": "9988.HK",
+          "unrealized_gain_loss": 1116.48
+        },
+        {
+          "acquired_date": "2025-12-10",
+          "cost_basis": 229.34,
+          "lot_id": "LOT-FS-0009-02",
+          "market_price": 261.52,
+          "quantity": 61,
+          "ticker": "0700.HK",
+          "unrealized_gain_loss": 1962.98
+        }
+      ],
+      "total_market_value": 1273135.22
+    },
+    {
+      "account_id": "ACC-FS-0010",
+      "account_type": "taxable brokerage",
+      "base_currency": "USD",
+      "cash": 371042.39,
+      "client_id": "CLIENT-FS-0002",
+      "holdings": [
+        {
+          "cost_basis": 392.65,
+          "market_value": 441789.66,
+          "quantity": 927,
+          "ticker": "MSFT"
+        },
+        {
+          "cost_basis": 48.02,
+          "market_value": 13519.0,
+          "quantity": 220,
+          "ticker": "NVDA"
+        },
+        {
+          "cost_basis": 465.89,
+          "market_value": 29028.0,
+          "quantity": 50,
+          "ticker": "BND"
+        },
+        {
+          "cost_basis": 100.67,
+          "market_value": 52940.16,
+          "quantity": 504,
+          "ticker": "AAPL"
+        },
+        {
+          "cost_basis": 418.42,
+          "market_value": 236177.6,
+          "quantity": 457,
+          "ticker": "JPM"
+        }
+      ],
+      "model_portfolio": {
+        "model_id": "MODEL-GENERATED-BALANCED",
+        "target_allocations": {
+          "AAPL": 0.14,
+          "BND": 0.14,
+          "CASH": 0.3,
+          "JPM": 0.14,
+          "MSFT": 0.14,
+          "NVDA": 0.14
+        }
+      },
+      "recent_trades": [
+        {
+          "quantity": 17,
+          "side": "SELL",
+          "ticker": "MSFT",
+          "trade_date": "2026-05-10",
+          "trade_id": "TRD-FS-0010-01",
+          "wash_sale_relevant": false
+        }
+      ],
+      "risk_profile": "conservative",
+      "tax_lots": [
+        {
+          "acquired_date": "2024-12-21",
+          "cost_basis": 108.95,
+          "lot_id": "LOT-FS-0010-01",
+          "market_price": 123.25,
+          "quantity": 59,
+          "ticker": "MSFT",
+          "unrealized_gain_loss": 843.7
+        },
+        {
+          "acquired_date": "2024-09-08",
+          "cost_basis": 149.98,
+          "lot_id": "LOT-FS-0010-02",
+          "market_price": 183.95,
+          "quantity": 46,
+          "ticker": "NVDA",
+          "unrealized_gain_loss": 1562.62
+        }
+      ],
+      "total_market_value": 1144496.81
+    },
+    {
+      "account_id": "ACC-FS-0011",
+      "account_type": "taxable brokerage",
+      "base_currency": "USD",
+      "cash": 160915.18,
+      "client_id": "CLIENT-FS-0003",
+      "holdings": [
+        {
+          "cost_basis": 51.01,
+          "market_value": 36767.48,
+          "quantity": 662,
+          "ticker": "BND"
+        },
+        {
+          "cost_basis": 443.32,
+          "market_value": 494949.67,
+          "quantity": 1049,
+          "ticker": "AAPL"
+        }
+      ],
+      "model_portfolio": {
+        "model_id": "MODEL-GENERATED-BALANCED",
+        "target_allocations": {
+          "AAPL": 0.35,
+          "BND": 0.35,
+          "CASH": 0.3
+        }
+      },
+      "recent_trades": [
+        {
+          "quantity": 10,
+          "side": "BUY",
+          "ticker": "BND",
+          "trade_date": "2026-04-25",
+          "trade_id": "TRD-FS-0011-01",
+          "wash_sale_relevant": false
+        }
+      ],
+      "risk_profile": "growth",
+      "tax_lots": [
+        {
+          "acquired_date": "2025-08-03",
+          "cost_basis": 88.31,
+          "lot_id": "LOT-FS-0011-01",
+          "market_price": 90.72,
+          "quantity": 118,
+          "ticker": "BND",
+          "unrealized_gain_loss": 284.38
+        },
+        {
+          "acquired_date": "2025-07-22",
+          "cost_basis": 71.17,
+          "lot_id": "LOT-FS-0011-02",
+          "market_price": 84.67,
+          "quantity": 61,
+          "ticker": "AAPL",
+          "unrealized_gain_loss": 823.5
+        }
+      ],
+      "total_market_value": 692632.33
+    },
+    {
+      "account_id": "ACC-FS-0012",
+      "account_type": "trust",
+      "base_currency": "HKD",
+      "cash": 634994.31,
+      "client_id": "CLIENT-FS-0004",
+      "holdings": [
+        {
+          "cost_basis": 329.73,
+          "market_value": 139297.14,
+          "quantity": 438,
+          "ticker": "9988.HK"
+        },
+        {
+          "cost_basis": 205.08,
+          "market_value": 130351.39,
+          "quantity": 563,
+          "ticker": "0700.HK"
+        }
+      ],
+      "model_portfolio": {
+        "model_id": "MODEL-GENERATED-BALANCED",
+        "target_allocations": {
+          "0700.HK": 0.35,
+          "9988.HK": 0.35,
+          "CASH": 0.3
+        }
+      },
+      "recent_trades": [
+        {
+          "quantity": 27,
+          "side": "SELL",
+          "ticker": "9988.HK",
+          "trade_date": "2026-05-10",
+          "trade_id": "TRD-FS-0012-01",
+          "wash_sale_relevant": true
+        }
+      ],
+      "risk_profile": "moderate",
+      "tax_lots": [
+        {
+          "acquired_date": "2024-07-03",
+          "cost_basis": 283.29,
+          "lot_id": "LOT-FS-0012-01",
+          "market_price": 199.75,
+          "quantity": 106,
+          "ticker": "9988.HK",
+          "unrealized_gain_loss": -8855.24
+        },
+        {
+          "acquired_date": "2025-08-25",
+          "cost_basis": 298.99,
+          "lot_id": "LOT-FS-0012-02",
+          "market_price": 221.34,
+          "quantity": 82,
+          "ticker": "0700.HK",
+          "unrealized_gain_loss": -6367.3
+        }
+      ],
+      "total_market_value": 904642.84
+    }
+  ],
+  "schema_version": "accounts_world_v1",
+  "world_id": "financial_services_seed42"
+}

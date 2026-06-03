@@ -1,0 +1,15 @@
+{
+  "world_id": "financial_services_seed42",
+  "kyc_rules": {
+    "rule_set_id": "single_tool_kyc_rules",
+    "required_fields": [
+      "legal_name",
+      "country",
+      "tax_id"
+    ],
+    "required_documents": [
+      "formation_doc",
+      "beneficial_ownership_certification"
+    ]
+  }
+}

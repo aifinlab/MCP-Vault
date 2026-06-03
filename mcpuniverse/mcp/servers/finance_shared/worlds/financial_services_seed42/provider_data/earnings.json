@@ -1,0 +1,20 @@
+{
+  "events": [
+    {
+      "event_date": "2026-07-29",
+      "fiscal_period": "Q2-2026",
+      "ticker": "AAPL",
+      "time": "post_market"
+    }
+  ],
+  "reported_actuals": [
+    {
+      "eps": 1.58,
+      "fiscal_period": "Q1-2026",
+      "revenue": 98000000000.0,
+      "ticker": "AAPL"
+    }
+  ],
+  "schema_version": "earnings_world_v1",
+  "world_id": "financial_services_seed42"
+}

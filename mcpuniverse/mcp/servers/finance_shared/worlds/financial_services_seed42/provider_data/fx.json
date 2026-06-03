@@ -1,0 +1,232 @@
+{
+  "forward_curves": [
+    {
+      "as_of_date": "2026-05-15",
+      "currency_pair": "USDJPY",
+      "points": [
+        {
+          "forward_points": -15.0,
+          "tenor": "1M"
+        },
+        {
+          "forward_points": -45.0,
+          "tenor": "3M"
+        },
+        {
+          "forward_points": -91.8,
+          "tenor": "6M"
+        }
+      ],
+      "source_trust_level": "trusted_deterministic_provider"
+    },
+    {
+      "as_of_date": "2026-05-15",
+      "currency_pair": "USDHKD",
+      "points": [
+        {
+          "forward_points": 12.69,
+          "tenor": "1M"
+        },
+        {
+          "forward_points": 38.08,
+          "tenor": "3M"
+        },
+        {
+          "forward_points": 77.68,
+          "tenor": "6M"
+        }
+      ],
+      "source_trust_level": "trusted_deterministic_provider"
+    },
+    {
+      "as_of_date": "2026-05-15",
+      "currency_pair": "USDCNY",
+      "points": [
+        {
+          "forward_points": 8.31,
+          "tenor": "1M"
+        },
+        {
+          "forward_points": 24.93,
+          "tenor": "3M"
+        },
+        {
+          "forward_points": 50.86,
+          "tenor": "6M"
+        }
+      ],
+      "source_trust_level": "trusted_deterministic_provider"
+    },
+    {
+      "as_of_date": "2026-05-15",
+      "currency_pair": "EURUSD",
+      "points": [
+        {
+          "forward_points": -1.16,
+          "tenor": "1M"
+        },
+        {
+          "forward_points": -3.48,
+          "tenor": "3M"
+        },
+        {
+          "forward_points": -7.1,
+          "tenor": "6M"
+        }
+      ],
+      "source_trust_level": "trusted_deterministic_provider"
+    }
+  ],
+  "forward_points": [
+    {
+      "annualized_carry": 0.012,
+      "as_of_date": "2026-05-15",
+      "currency_pair": "USDJPY",
+      "forward_points": -45.0,
+      "forward_rate": 153.67,
+      "source_trust_level": "trusted_deterministic_provider",
+      "tenor": "3M"
+    },
+    {
+      "annualized_carry": -0.015,
+      "as_of_date": "2026-05-15",
+      "currency_pair": "USDHKD",
+      "forward_points": 38.08,
+      "forward_rate": 4.6147,
+      "source_trust_level": "trusted_deterministic_provider",
+      "tenor": "3M"
+    },
+    {
+      "annualized_carry": -0.005,
+      "as_of_date": "2026-05-15",
+      "currency_pair": "USDCNY",
+      "forward_points": 24.93,
+      "forward_rate": 2.5448,
+      "source_trust_level": "trusted_deterministic_provider",
+      "tenor": "3M"
+    },
+    {
+      "annualized_carry": 0.007,
+      "as_of_date": "2026-05-15",
+      "currency_pair": "EURUSD",
+      "forward_points": -3.48,
+      "forward_rate": 4.8524,
+      "source_trust_level": "trusted_deterministic_provider",
+      "tenor": "3M"
+    }
+  ],
+  "schema_version": "fx_world_v1",
+  "spot_rates": [
+    {
+      "as_of_date": "2026-05-15",
+      "ask": 154.14,
+      "bid": 154.1,
+      "currency_pair": "USDJPY",
+      "mid": 154.12,
+      "source_trust_level": "trusted_deterministic_provider"
+    },
+    {
+      "as_of_date": "2026-05-15",
+      "ask": 4.2359,
+      "bid": 4.2319,
+      "currency_pair": "USDHKD",
+      "mid": 4.2339,
+      "source_trust_level": "trusted_deterministic_provider"
+    },
+    {
+      "as_of_date": "2026-05-15",
+      "ask": 2.2975,
+      "bid": 2.2935,
+      "currency_pair": "USDCNY",
+      "mid": 2.2955,
+      "source_trust_level": "trusted_deterministic_provider"
+    },
+    {
+      "as_of_date": "2026-05-15",
+      "ask": 4.8892,
+      "bid": 4.8852,
+      "currency_pair": "EURUSD",
+      "mid": 4.8872,
+      "source_trust_level": "trusted_deterministic_provider"
+    }
+  ],
+  "vol_surfaces": [
+    {
+      "as_of_date": "2026-05-15",
+      "currency_pair": "USDJPY",
+      "source_trust_level": "trusted_deterministic_provider",
+      "surface": [
+        {
+          "atm_vol": 0.095,
+          "bf25": 0.004,
+          "rr25": -0.012,
+          "tenor": "1M"
+        },
+        {
+          "atm_vol": 0.101,
+          "bf25": 0.005,
+          "rr25": -0.014,
+          "tenor": "3M"
+        }
+      ]
+    },
+    {
+      "as_of_date": "2026-05-15",
+      "currency_pair": "USDHKD",
+      "source_trust_level": "trusted_deterministic_provider",
+      "surface": [
+        {
+          "atm_vol": 0.095,
+          "bf25": 0.004,
+          "rr25": -0.012,
+          "tenor": "1M"
+        },
+        {
+          "atm_vol": 0.101,
+          "bf25": 0.005,
+          "rr25": -0.014,
+          "tenor": "3M"
+        }
+      ]
+    },
+    {
+      "as_of_date": "2026-05-15",
+      "currency_pair": "USDCNY",
+      "source_trust_level": "trusted_deterministic_provider",
+      "surface": [
+        {
+          "atm_vol": 0.095,
+          "bf25": 0.004,
+          "rr25": -0.012,
+          "tenor": "1M"
+        },
+        {
+          "atm_vol": 0.101,
+          "bf25": 0.005,
+          "rr25": -0.014,
+          "tenor": "3M"
+        }
+      ]
+    },
+    {
+      "as_of_date": "2026-05-15",
+      "currency_pair": "EURUSD",
+      "source_trust_level": "trusted_deterministic_provider",
+      "surface": [
+        {
+          "atm_vol": 0.095,
+          "bf25": 0.004,
+          "rr25": -0.012,
+          "tenor": "1M"
+        },
+        {
+          "atm_vol": 0.101,
+          "bf25": 0.005,
+          "rr25": -0.014,
+          "tenor": "3M"
+        }
+      ]
+    }
+  ],
+  "world_id": "financial_services_seed42"
+}

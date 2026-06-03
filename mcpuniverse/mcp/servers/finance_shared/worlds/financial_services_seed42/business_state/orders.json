@@ -1,0 +1,198 @@
+{
+  "orders": [
+    {
+      "account_id": "ACC-FS-0001",
+      "order_id": "ORD-FS-DRAFT-0001",
+      "quantity": 25,
+      "side": "BUY",
+      "status": "draft_not_submitted",
+      "ticker": "AAPL"
+    },
+    {
+      "account_id": "ACC-FS-0004",
+      "order_id": "ORD-FS-DRAFT-0002",
+      "quantity": 41,
+      "side": "SELL",
+      "status": "draft_not_submitted",
+      "ticker": "600519.SH"
+    },
+    {
+      "account_id": "ACC-FS-0008",
+      "order_id": "ORD-FS-DRAFT-0003",
+      "quantity": 157,
+      "side": "SELL",
+      "status": "draft_not_submitted",
+      "ticker": "9988.HK"
+    },
+    {
+      "account_id": "ACC-FS-0011",
+      "order_id": "ORD-FS-DRAFT-0004",
+      "quantity": 171,
+      "side": "BUY",
+      "status": "draft_not_submitted",
+      "ticker": "9988.HK"
+    },
+    {
+      "account_id": "ACC-FS-0009",
+      "order_id": "ORD-FS-DRAFT-0005",
+      "quantity": 241,
+      "side": "BUY",
+      "status": "draft_not_submitted",
+      "ticker": "BND"
+    },
+    {
+      "account_id": "ACC-FS-0003",
+      "order_id": "ORD-FS-DRAFT-0006",
+      "quantity": 228,
+      "side": "BUY",
+      "status": "draft_not_submitted",
+      "ticker": "BND"
+    },
+    {
+      "account_id": "ACC-FS-0002",
+      "order_id": "ORD-FS-DRAFT-0007",
+      "quantity": 70,
+      "side": "BUY",
+      "status": "draft_not_submitted",
+      "ticker": "9988.HK"
+    },
+    {
+      "account_id": "ACC-FS-0005",
+      "order_id": "ORD-FS-DRAFT-0008",
+      "quantity": 53,
+      "side": "SELL",
+      "status": "draft_not_submitted",
+      "ticker": "JPM"
+    },
+    {
+      "account_id": "ACC-FS-0011",
+      "order_id": "ORD-FS-HIST-0001",
+      "quantity": 65,
+      "side": "SELL",
+      "status": "expired",
+      "ticker": "BND"
+    },
+    {
+      "account_id": "ACC-FS-0002",
+      "order_id": "ORD-FS-HIST-0002",
+      "quantity": 12,
+      "side": "SELL",
+      "status": "filled",
+      "ticker": "000001.SZ"
+    },
+    {
+      "account_id": "ACC-FS-0006",
+      "order_id": "ORD-FS-HIST-0003",
+      "quantity": 42,
+      "side": "SELL",
+      "status": "filled",
+      "ticker": "NVDA"
+    },
+    {
+      "account_id": "ACC-FS-0008",
+      "order_id": "ORD-FS-HIST-0004",
+      "quantity": 144,
+      "side": "SELL",
+      "status": "expired",
+      "ticker": "9988.HK"
+    },
+    {
+      "account_id": "ACC-FS-0002",
+      "order_id": "ORD-FS-HIST-0005",
+      "quantity": 140,
+      "side": "BUY",
+      "status": "filled",
+      "ticker": "MSFT"
+    },
+    {
+      "account_id": "ACC-FS-0006",
+      "order_id": "ORD-FS-HIST-0006",
+      "quantity": 111,
+      "side": "BUY",
+      "status": "filled",
+      "ticker": "9988.HK"
+    },
+    {
+      "account_id": "ACC-FS-0001",
+      "order_id": "ORD-FS-HIST-0007",
+      "quantity": 231,
+      "side": "SELL",
+      "status": "filled",
+      "ticker": "BND"
+    },
+    {
+      "account_id": "ACC-FS-0006",
+      "order_id": "ORD-FS-HIST-0008",
+      "quantity": 171,
+      "side": "BUY",
+      "status": "filled",
+      "ticker": "JPM"
+    },
+    {
+      "account_id": "ACC-FS-0006",
+      "order_id": "ORD-FS-HIST-0009",
+      "quantity": 250,
+      "side": "SELL",
+      "status": "filled",
+      "ticker": "9988.HK"
+    },
+    {
+      "account_id": "ACC-FS-0012",
+      "order_id": "ORD-FS-HIST-0010",
+      "quantity": 222,
+      "side": "BUY",
+      "status": "expired",
+      "ticker": "NVDA"
+    },
+    {
+      "account_id": "ACC-FS-0003",
+      "order_id": "ORD-FS-HIST-0011",
+      "quantity": 46,
+      "side": "BUY",
+      "status": "filled",
+      "ticker": "000001.SZ"
+    },
+    {
+      "account_id": "ACC-FS-0006",
+      "order_id": "ORD-FS-HIST-0012",
+      "quantity": 69,
+      "side": "BUY",
+      "status": "expired",
+      "ticker": "000001.SZ"
+    },
+    {
+      "account_id": "ACC-FS-0012",
+      "order_id": "ORD-FS-HIST-0013",
+      "quantity": 224,
+      "side": "SELL",
+      "status": "filled",
+      "ticker": "MSFT"
+    },
+    {
+      "account_id": "ACC-FS-0008",
+      "order_id": "ORD-FS-HIST-0014",
+      "quantity": 210,
+      "side": "BUY",
+      "status": "filled",
+      "ticker": "JPM"
+    },
+    {
+      "account_id": "ACC-FS-0006",
+      "order_id": "ORD-FS-HIST-0015",
+      "quantity": 58,
+      "side": "BUY",
+      "status": "cancelled",
+      "ticker": "BND"
+    },
+    {
+      "account_id": "ACC-FS-0011",
+      "order_id": "ORD-FS-HIST-0016",
+      "quantity": 85,
+      "side": "SELL",
+      "status": "filled",
+      "ticker": "JPM"
+    }
+  ],
+  "schema_version": "orders_v1",
+  "world_id": "financial_services_seed42"
+}

@@ -1,0 +1,228 @@
+{
+  "clients": [
+    {
+      "advisor_id": "ADV-FS-01",
+      "client_id": "CLIENT-FS-0001",
+      "client_name": "Financial Services Test Client",
+      "open_items": [
+        "review concentrated bond ETF position"
+      ],
+      "segment": "wealth"
+    },
+    {
+      "advisor_id": "ADV-FS-02",
+      "client_id": "CLIENT-FS-0002",
+      "client_name": "Generated Client 02",
+      "open_items": [
+        "review liquidity needs"
+      ],
+      "segment": "institutional"
+    },
+    {
+      "advisor_id": "ADV-FS-03",
+      "client_id": "CLIENT-FS-0003",
+      "client_name": "Generated Client 03",
+      "open_items": [
+        "review liquidity needs"
+      ],
+      "segment": "wealth"
+    },
+    {
+      "advisor_id": "ADV-FS-04",
+      "client_id": "CLIENT-FS-0004",
+      "client_name": "Generated Client 04",
+      "open_items": [
+        "prepare risk update"
+      ],
+      "segment": "private client"
+    },
+    {
+      "advisor_id": "ADV-FS-05",
+      "client_id": "CLIENT-FS-0005",
+      "client_name": "Generated Client 05",
+      "open_items": [
+        "confirm tax constraints"
+      ],
+      "segment": "institutional"
+    },
+    {
+      "advisor_id": "ADV-FS-01",
+      "client_id": "CLIENT-FS-0006",
+      "client_name": "Generated Client 06",
+      "open_items": [
+        "confirm tax constraints"
+      ],
+      "segment": "private client"
+    },
+    {
+      "advisor_id": "ADV-FS-02",
+      "client_id": "CLIENT-FS-0007",
+      "client_name": "Generated Client 07",
+      "open_items": [
+        "review liquidity needs"
+      ],
+      "segment": "private client"
+    },
+    {
+      "advisor_id": "ADV-FS-03",
+      "client_id": "CLIENT-FS-0008",
+      "client_name": "Generated Client 08",
+      "open_items": [
+        "confirm tax constraints"
+      ],
+      "segment": "institutional"
+    }
+  ],
+  "follow_ups": [
+    {
+      "client_id": "CLIENT-FS-0001",
+      "description": "Prepare rebalancing alternatives.",
+      "follow_up_id": "FU-FS-0001",
+      "status": "open"
+    },
+    {
+      "client_id": "CLIENT-FS-0002",
+      "description": "Confirm investment constraints.",
+      "follow_up_id": "FU-FS-0002",
+      "status": "in_progress"
+    },
+    {
+      "client_id": "CLIENT-FS-0003",
+      "description": "Prepare review materials.",
+      "follow_up_id": "FU-FS-0003",
+      "status": "open"
+    },
+    {
+      "client_id": "CLIENT-FS-0004",
+      "description": "Prepare review materials.",
+      "follow_up_id": "FU-FS-0004",
+      "status": "in_progress"
+    },
+    {
+      "client_id": "CLIENT-FS-0005",
+      "description": "Prepare review materials.",
+      "follow_up_id": "FU-FS-0005",
+      "status": "in_progress"
+    },
+    {
+      "client_id": "CLIENT-FS-0006",
+      "description": "Confirm investment constraints.",
+      "follow_up_id": "FU-FS-0006",
+      "status": "in_progress"
+    },
+    {
+      "client_id": "CLIENT-FS-0007",
+      "description": "Confirm investment constraints.",
+      "follow_up_id": "FU-FS-0007",
+      "status": "in_progress"
+    },
+    {
+      "client_id": "CLIENT-FS-0008",
+      "description": "Confirm investment constraints.",
+      "follow_up_id": "FU-FS-0008",
+      "status": "in_progress"
+    }
+  ],
+  "interactions": [
+    {
+      "client_id": "CLIENT-FS-0001",
+      "date": "2026-05-10",
+      "interaction_id": "CRM-INT-FS-0001",
+      "summary": "Client asked about tax-loss harvesting and bond allocation."
+    },
+    {
+      "client_id": "CLIENT-FS-0002",
+      "date": "2026-05-06",
+      "interaction_id": "CRM-INT-FS-0002",
+      "summary": "Client asked for a liquidity planning update."
+    },
+    {
+      "client_id": "CLIENT-FS-0003",
+      "date": "2026-05-06",
+      "interaction_id": "CRM-INT-FS-0003",
+      "summary": "Client requested a portfolio risk review."
+    },
+    {
+      "client_id": "CLIENT-FS-0004",
+      "date": "2026-05-03",
+      "interaction_id": "CRM-INT-FS-0004",
+      "summary": "Client discussed upcoming capital call funding."
+    },
+    {
+      "client_id": "CLIENT-FS-0005",
+      "date": "2026-05-08",
+      "interaction_id": "CRM-INT-FS-0005",
+      "summary": "Client asked for a liquidity planning update."
+    },
+    {
+      "client_id": "CLIENT-FS-0006",
+      "date": "2026-05-08",
+      "interaction_id": "CRM-INT-FS-0006",
+      "summary": "Client asked for a liquidity planning update."
+    },
+    {
+      "client_id": "CLIENT-FS-0007",
+      "date": "2026-05-05",
+      "interaction_id": "CRM-INT-FS-0007",
+      "summary": "Client discussed upcoming capital call funding."
+    },
+    {
+      "client_id": "CLIENT-FS-0008",
+      "date": "2026-05-05",
+      "interaction_id": "CRM-INT-FS-0008",
+      "summary": "Client discussed upcoming capital call funding."
+    }
+  ],
+  "meetings": [
+    {
+      "client_id": "CLIENT-FS-0001",
+      "date": "2026-05-18",
+      "meeting_id": "MTG-FS-0001",
+      "topic": "Quarterly review"
+    },
+    {
+      "client_id": "CLIENT-FS-0002",
+      "date": "2026-05-26",
+      "meeting_id": "MTG-FS-0002",
+      "topic": "Tax planning"
+    },
+    {
+      "client_id": "CLIENT-FS-0003",
+      "date": "2026-05-25",
+      "meeting_id": "MTG-FS-0003",
+      "topic": "Risk review"
+    },
+    {
+      "client_id": "CLIENT-FS-0004",
+      "date": "2026-05-28",
+      "meeting_id": "MTG-FS-0004",
+      "topic": "Risk review"
+    },
+    {
+      "client_id": "CLIENT-FS-0005",
+      "date": "2026-05-16",
+      "meeting_id": "MTG-FS-0005",
+      "topic": "Tax planning"
+    },
+    {
+      "client_id": "CLIENT-FS-0006",
+      "date": "2026-05-22",
+      "meeting_id": "MTG-FS-0006",
+      "topic": "Quarterly review"
+    },
+    {
+      "client_id": "CLIENT-FS-0007",
+      "date": "2026-05-20",
+      "meeting_id": "MTG-FS-0007",
+      "topic": "Tax planning"
+    },
+    {
+      "client_id": "CLIENT-FS-0008",
+      "date": "2026-05-18",
+      "meeting_id": "MTG-FS-0008",
+      "topic": "Quarterly review"
+    }
+  ],
+  "schema_version": "crm_v1",
+  "world_id": "financial_services_seed42"
+}

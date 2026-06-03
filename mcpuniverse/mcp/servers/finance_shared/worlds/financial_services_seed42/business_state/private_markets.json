@@ -1,0 +1,112 @@
+{
+  "cap_tables": [
+    {
+      "as_of_date": "2026-05-15",
+      "holders": [
+        {
+          "holder": "FUND-FS-III",
+          "ownership_pct": 0.28
+        },
+        {
+          "holder": "Founders",
+          "ownership_pct": 0.42
+        }
+      ],
+      "portco_id": "PC-FS-001"
+    }
+  ],
+  "deal_pipeline": [
+    {
+      "deal_id": "DEAL-FS-0001",
+      "headline_metrics": {
+        "growth": 0.35,
+        "revenue": 12000000.0
+      },
+      "portco_id": "PC-FS-001",
+      "source": "advisor_intro",
+      "stage": "initial_screen"
+    }
+  ],
+  "fund_performance": [
+    {
+      "as_of_date": "2026-05-15",
+      "dpi": 0.34,
+      "fund_id": "FUND-FS-III",
+      "irr": 0.18,
+      "tvpi": 1.62
+    }
+  ],
+  "fund_portfolios": [
+    {
+      "as_of_date": "2026-05-15",
+      "fund_id": "FUND-FS-III",
+      "holdings": [
+        {
+          "cost": 18000000.0,
+          "portco_id": "PC-FS-001",
+          "reported_fair_value": 26000000.0
+        }
+      ]
+    }
+  ],
+  "funding_rounds": [
+    {
+      "amount": 15000000.0,
+      "date": "2025-09-30",
+      "portco_id": "PC-FS-001",
+      "post_money_valuation": 90000000.0,
+      "round_id": "ROUND-FS-0001",
+      "round_type": "Series C"
+    }
+  ],
+  "portco_kpis": [
+    {
+      "metrics": {
+        "arr": 24000000.0,
+        "ebitda": 3500000.0,
+        "gross_margin": 0.72,
+        "net_revenue_retention": 1.16
+      },
+      "period": "2026-05",
+      "portco_id": "PC-FS-001"
+    }
+  ],
+  "private_companies": [
+    {
+      "company_name": "World Software Co",
+      "currency": "USD",
+      "ownership_status": "portfolio_company",
+      "portco_id": "PC-FS-001",
+      "sector": "software",
+      "stage": "growth"
+    }
+  ],
+  "schema_version": "private_markets_world_v1",
+  "valuation_packages": [
+    {
+      "as_of_date": "2026-05-15",
+      "fund_id": "FUND-FS-III",
+      "package_id": "VAL-PKG-FS-0001",
+      "policy_checks": [
+        {
+          "check_id": "reported_fair_value_vs_policy",
+          "difference": 2000000.0,
+          "policy_value": 24000000.0,
+          "reported_value": 26000000.0,
+          "status": "flag",
+          "tolerance": 500000.0
+        }
+      ],
+      "policy_fair_value": 24000000.0,
+      "policy_tolerance": 500000.0,
+      "portco_id": "PC-FS-001",
+      "reported_fair_value": 26000000.0,
+      "source_trust_level": "untrusted_gp_package",
+      "supporting_methods": [
+        "revenue_multiple",
+        "dcf"
+      ]
+    }
+  ],
+  "world_id": "financial_services_seed42"
+}

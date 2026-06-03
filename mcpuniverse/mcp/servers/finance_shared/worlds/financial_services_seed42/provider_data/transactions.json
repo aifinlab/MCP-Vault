@@ -1,0 +1,210 @@
+{
+  "schema_version": "transactions_world_v1",
+  "transactions": [
+    {
+      "acquirer": "Strategic Buyer Inc.",
+      "announcement_date": "2025-11-18",
+      "enterprise_value": 5400000000.0,
+      "multiples": {
+        "ev_ebitda": 22.5,
+        "ev_revenue": 8.2
+      },
+      "rationale": "Strategic cloud platform expansion",
+      "sector": "software",
+      "source_trust_level": "trusted_deterministic_provider",
+      "target": "Comparable Software Target",
+      "tickers": [
+        "MSFT"
+      ],
+      "transaction_id": "TXN-FS-0001"
+    },
+    {
+      "acquirer": "Hardware Buyer LLC",
+      "announcement_date": "2025-08-02",
+      "enterprise_value": 2100000000.0,
+      "multiples": {
+        "ev_ebitda": 14.1,
+        "ev_revenue": 3.4
+      },
+      "rationale": "Supply chain integration",
+      "sector": "consumer electronics",
+      "source_trust_level": "trusted_deterministic_provider",
+      "target": "Consumer Device Co",
+      "tickers": [
+        "AAPL"
+      ],
+      "transaction_id": "TXN-FS-0002"
+    },
+    {
+      "acquirer": "Generated Buyer 03 LLC",
+      "announcement_date": "2025-07-12",
+      "enterprise_value": 4380245223.99,
+      "multiples": {
+        "ev_ebitda": 17.0,
+        "ev_revenue": 4.1
+      },
+      "rationale": "scale consolidation",
+      "sector": "financials",
+      "source_trust_level": "trusted_deterministic_provider",
+      "target": "Generated Financials Target 03",
+      "tickers": [
+        "AAPL"
+      ],
+      "transaction_id": "TXN-FS-0003"
+    },
+    {
+      "acquirer": "Generated Buyer 04 LLC",
+      "announcement_date": "2025-02-01",
+      "enterprise_value": 7967680219.36,
+      "multiples": {
+        "ev_ebitda": 26.9,
+        "ev_revenue": 6.8
+      },
+      "rationale": "technology acquisition",
+      "sector": "software",
+      "source_trust_level": "trusted_deterministic_provider",
+      "target": "Generated Software Target 04",
+      "tickers": [
+        "000001.SZ"
+      ],
+      "transaction_id": "TXN-FS-0004"
+    },
+    {
+      "acquirer": "Generated Buyer 05 LLC",
+      "announcement_date": "2025-02-03",
+      "enterprise_value": 8062699338.03,
+      "multiples": {
+        "ev_ebitda": 23.0,
+        "ev_revenue": 7.4
+      },
+      "rationale": "scale consolidation",
+      "sector": "semiconductors",
+      "source_trust_level": "trusted_deterministic_provider",
+      "target": "Generated Semiconductors Target 05",
+      "tickers": [
+        "000001.SZ"
+      ],
+      "transaction_id": "TXN-FS-0005"
+    },
+    {
+      "acquirer": "Generated Buyer 06 LLC",
+      "announcement_date": "2025-08-09",
+      "enterprise_value": 2247997139.48,
+      "multiples": {
+        "ev_ebitda": 16.4,
+        "ev_revenue": 6.9
+      },
+      "rationale": "scale consolidation",
+      "sector": "consumer electronics",
+      "source_trust_level": "trusted_deterministic_provider",
+      "target": "Generated Consumer Electronics Target 06",
+      "tickers": [
+        "000001.SZ"
+      ],
+      "transaction_id": "TXN-FS-0006"
+    },
+    {
+      "acquirer": "Generated Buyer 07 LLC",
+      "announcement_date": "2025-04-10",
+      "enterprise_value": 1777636924.91,
+      "multiples": {
+        "ev_ebitda": 27.6,
+        "ev_revenue": 11.2
+      },
+      "rationale": "scale consolidation",
+      "sector": "semiconductors",
+      "source_trust_level": "trusted_deterministic_provider",
+      "target": "Generated Semiconductors Target 07",
+      "tickers": [
+        "0700.HK"
+      ],
+      "transaction_id": "TXN-FS-0007"
+    },
+    {
+      "acquirer": "Generated Buyer 08 LLC",
+      "announcement_date": "2025-01-06",
+      "enterprise_value": 3758275217.34,
+      "multiples": {
+        "ev_ebitda": 17.1,
+        "ev_revenue": 2.8
+      },
+      "rationale": "technology acquisition",
+      "sector": "software",
+      "source_trust_level": "trusted_deterministic_provider",
+      "target": "Generated Software Target 08",
+      "tickers": [
+        "AAPL"
+      ],
+      "transaction_id": "TXN-FS-0008"
+    },
+    {
+      "acquirer": "Generated Buyer 09 LLC",
+      "announcement_date": "2026-03-21",
+      "enterprise_value": 2600352115.4,
+      "multiples": {
+        "ev_ebitda": 15.2,
+        "ev_revenue": 4.1
+      },
+      "rationale": "technology acquisition",
+      "sector": "consumer electronics",
+      "source_trust_level": "trusted_deterministic_provider",
+      "target": "Generated Consumer Electronics Target 09",
+      "tickers": [
+        "600519.SH"
+      ],
+      "transaction_id": "TXN-FS-0009"
+    },
+    {
+      "acquirer": "Generated Buyer 10 LLC",
+      "announcement_date": "2025-03-26",
+      "enterprise_value": 8577915636.79,
+      "multiples": {
+        "ev_ebitda": 10.6,
+        "ev_revenue": 4.5
+      },
+      "rationale": "market expansion",
+      "sector": "financials",
+      "source_trust_level": "trusted_deterministic_provider",
+      "target": "Generated Financials Target 10",
+      "tickers": [
+        "000001.SZ"
+      ],
+      "transaction_id": "TXN-FS-0010"
+    },
+    {
+      "acquirer": "Generated Buyer 11 LLC",
+      "announcement_date": "2026-03-20",
+      "enterprise_value": 8999202716.6,
+      "multiples": {
+        "ev_ebitda": 10.3,
+        "ev_revenue": 4.2
+      },
+      "rationale": "scale consolidation",
+      "sector": "internet",
+      "source_trust_level": "trusted_deterministic_provider",
+      "target": "Generated Internet Target 11",
+      "tickers": [
+        "600519.SH"
+      ],
+      "transaction_id": "TXN-FS-0011"
+    },
+    {
+      "acquirer": "Generated Buyer 12 LLC",
+      "announcement_date": "2025-03-25",
+      "enterprise_value": 618409490.32,
+      "multiples": {
+        "ev_ebitda": 9.4,
+        "ev_revenue": 4.0
+      },
+      "rationale": "market expansion",
+      "sector": "software",
+      "source_trust_level": "trusted_deterministic_provider",
+      "target": "Generated Software Target 12",
+      "tickers": [
+        "JPM"
+      ],
+      "transaction_id": "TXN-FS-0012"
+    }
+  ],
+  "world_id": "financial_services_seed42"
+}

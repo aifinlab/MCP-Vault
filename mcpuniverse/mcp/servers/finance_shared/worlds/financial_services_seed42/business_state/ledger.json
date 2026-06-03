@@ -1,0 +1,88 @@
+{
+  "accrual_candidates": [
+    {
+      "accrual_id": "ACCR-FS-0001",
+      "amount": 12500.0,
+      "entity_id": "ENT-FS-0001",
+      "period": "2026-05",
+      "status": "draft_for_controller_review",
+      "support_id": "DOC-FS-INVOICE-0001"
+    }
+  ],
+  "budget_vs_actuals": [
+    {
+      "account_code": "6100",
+      "actual": 42000.0,
+      "budget": 30000.0,
+      "driver": "audit fee accrual and late vendor invoice",
+      "entity_id": "ENT-FS-0001",
+      "period": "2026-05",
+      "variance": 12000.0,
+      "variance_pct": 0.4
+    }
+  ],
+  "gl_transactions": [
+    {
+      "account_code": "6100",
+      "amount": 12500.0,
+      "description": "Audit fee accrual support",
+      "entity_id": "ENT-FS-0001",
+      "journal_entry_id": "JE-FS-0001",
+      "journal_source": "ap_invoice",
+      "period": "2026-05",
+      "transaction_id": "GL-FS-0001"
+    }
+  ],
+  "journal_entries": [
+    {
+      "entity_id": "ENT-FS-0001",
+      "journal_entry_id": "JE-FS-0001",
+      "lines": [
+        {
+          "account_code": "6100",
+          "credit": 0.0,
+          "debit": 12500.0
+        },
+        {
+          "account_code": "2100",
+          "credit": 12500.0,
+          "debit": 0.0
+        }
+      ],
+      "period": "2026-05",
+      "status": "posted"
+    }
+  ],
+  "rollforward_schedules": [
+    {
+      "account_code": "6100",
+      "activity": 12500.0,
+      "beginning_balance": 30000.0,
+      "ending_balance": 42000.0,
+      "entity_id": "ENT-FS-0001",
+      "period": "2026-05",
+      "reversals": 500.0
+    }
+  ],
+  "schema_version": "ledger_world_v1",
+  "trial_balances": [
+    {
+      "currency": "USD",
+      "entity_id": "ENT-FS-0001",
+      "lines": [
+        {
+          "account_code": "1000",
+          "account_name": "Cash",
+          "ending_balance": 1250000.0
+        },
+        {
+          "account_code": "6100",
+          "account_name": "Professional Fees",
+          "ending_balance": 42000.0
+        }
+      ],
+      "period": "2026-05"
+    }
+  ],
+  "world_id": "financial_services_seed42"
+}

@@ -1,0 +1,93 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "finance-mcp-safety"
+version = "1.0.0"
+authors = [
+    {name = "Finance MCP Safety Contributors"}
+]
+description = "Finance-only MCP safety benchmark and runtime"
+readme = "README.md"
+license = {text = "BSD-3-Clause"}
+keywords = [
+    "AI",
+    "agents",
+    "benchmarking",
+    "finance",
+    "LLM",
+    "MCP",
+    "safety"
+]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: BSD License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+]
+requires-python = ">=3.10,<4"
+dependencies = [
+    "requests==2.32.4",
+    "pydantic[email]==2.10.6", 
+    "schema==0.7.7",
+    "mcp==1.9.4",
+    "httpx==0.28.1",
+    "click==8.1.8",
+    "jinja2==3.1.6",
+    "python-dotenv==1.0.1",
+    "anyio==4.9.0",
+    "openai==1.68.2",
+    "anthropic==0.49.0",
+    "mistralai==1.6.0",
+    "pyyaml==6.0.2",
+    "google-genai==1.16.1",
+    "redis==6.1.0",
+    "psycopg[binary]==3.2.9",
+    "sqlalchemy[asyncio]==2.0.41",
+    "fastapi==0.115.12",
+    "bcrypt==4.3.0",
+    "pyseto==1.8.4",
+    "celery==5.5.3",
+    "xai-sdk==1.0.0",
+    "claude-code-sdk==0.0.20",
+    "akshare==1.18.60",
+    "uvicorn[standard]==0.34.0",
+    "pytz==2024.2"
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest==8.3.5",
+    "pytest-asyncio",
+    "pytest-postgresql",
+    "pylint",
+    "pre-commit",
+]
+dashboard = [
+    "gradio>=5.42.0",
+]
+
+[tool.setuptools.package-dir]
+mcpuniverse = "mcpuniverse"
+
+[tool.setuptools.packages.find]
+include = ["mcpuniverse*"]
+
+[tool.setuptools.package-data]
+mcpuniverse = [
+    "agent/configs/*",
+    "benchmark/configs/*.json",
+    "benchmark/configs/*.yaml",
+    "benchmark/configs/*/*.json",
+    "benchmark/configs/*/*.yaml",
+    "benchmark/configs/*/*/*.json",
+    "benchmark/configs/*/*/*.yaml",
+    "mcp/configs/*.json",
+    "mcp/servers/finance_shared/world_configs/*.yaml",
+    "mcp/servers/finance_shared/worlds/*/*.json",
+    "mcp/servers/finance_shared/worlds/*/*/*.json"
+]

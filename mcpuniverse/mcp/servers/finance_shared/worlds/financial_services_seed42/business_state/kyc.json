@@ -1,0 +1,186 @@
+{
+  "onboarding_packets": [
+    {
+      "client_id": "CLIENT-FS-0001",
+      "document_inventory": [
+        {
+          "document_id": "DOC-FS-KYC-0001",
+          "document_type": "formation_doc"
+        }
+      ],
+      "fields": {
+        "country": "US",
+        "legal_name": "Financial Services Test Client",
+        "tax_id": "12-3456789"
+      },
+      "packet_id": "KYC-PACKET-FS-0001"
+    },
+    {
+      "client_id": "CLIENT-FS-0002",
+      "document_inventory": [
+        {
+          "document_id": "DOC-FS-KYC-0002",
+          "document_type": "formation_doc"
+        }
+      ],
+      "fields": {
+        "country": "HK",
+        "legal_name": "Generated Client 02",
+        "tax_id": "96-3919694"
+      },
+      "packet_id": "KYC-PACKET-FS-0002"
+    },
+    {
+      "client_id": "CLIENT-FS-0003",
+      "document_inventory": [
+        {
+          "document_id": "DOC-FS-KYC-0003",
+          "document_type": "formation_doc"
+        }
+      ],
+      "fields": {
+        "country": "HK",
+        "legal_name": "Generated Client 03",
+        "tax_id": "10-6098175"
+      },
+      "packet_id": "KYC-PACKET-FS-0003"
+    },
+    {
+      "client_id": "CLIENT-FS-0004",
+      "document_inventory": [
+        {
+          "document_id": "DOC-FS-KYC-0004",
+          "document_type": "formation_doc"
+        }
+      ],
+      "fields": {
+        "country": "SG",
+        "legal_name": "Generated Client 04",
+        "tax_id": "84-6406444"
+      },
+      "packet_id": "KYC-PACKET-FS-0004"
+    },
+    {
+      "client_id": "CLIENT-FS-0005",
+      "document_inventory": [
+        {
+          "document_id": "DOC-FS-KYC-0005",
+          "document_type": "formation_doc"
+        }
+      ],
+      "fields": {
+        "country": "SG",
+        "legal_name": "Generated Client 05",
+        "tax_id": "37-9576076"
+      },
+      "packet_id": "KYC-PACKET-FS-0005"
+    },
+    {
+      "client_id": "CLIENT-FS-0006",
+      "document_inventory": [
+        {
+          "document_id": "DOC-FS-KYC-0006",
+          "document_type": "formation_doc"
+        }
+      ],
+      "fields": {
+        "country": "HK",
+        "legal_name": "Generated Client 06",
+        "tax_id": "46-9647849"
+      },
+      "packet_id": "KYC-PACKET-FS-0006"
+    },
+    {
+      "client_id": "CLIENT-FS-0007",
+      "document_inventory": [
+        {
+          "document_id": "DOC-FS-KYC-0007",
+          "document_type": "formation_doc"
+        }
+      ],
+      "fields": {
+        "country": "GB",
+        "legal_name": "Generated Client 07",
+        "tax_id": "40-6207974"
+      },
+      "packet_id": "KYC-PACKET-FS-0007"
+    },
+    {
+      "client_id": "CLIENT-FS-0008",
+      "document_inventory": [
+        {
+          "document_id": "DOC-FS-KYC-0008",
+          "document_type": "formation_doc"
+        }
+      ],
+      "fields": {
+        "country": "SG",
+        "legal_name": "Generated Client 08",
+        "tax_id": "15-5107776"
+      },
+      "packet_id": "KYC-PACKET-FS-0008"
+    }
+  ],
+  "schema_version": "kyc_v1",
+  "screening_records": [
+    {
+      "client_id": "CLIENT-FS-0001",
+      "pep_status": false,
+      "risk_flags": [],
+      "sanctions_status": "clear",
+      "screening_id": "SCREEN-FS-0001"
+    },
+    {
+      "client_id": "CLIENT-FS-0002",
+      "pep_status": true,
+      "risk_flags": [],
+      "sanctions_status": "clear",
+      "screening_id": "SCREEN-FS-0002"
+    },
+    {
+      "client_id": "CLIENT-FS-0003",
+      "pep_status": false,
+      "risk_flags": [],
+      "sanctions_status": "clear",
+      "screening_id": "SCREEN-FS-0003"
+    },
+    {
+      "client_id": "CLIENT-FS-0004",
+      "pep_status": true,
+      "risk_flags": [],
+      "sanctions_status": "clear",
+      "screening_id": "SCREEN-FS-0004"
+    },
+    {
+      "client_id": "CLIENT-FS-0005",
+      "pep_status": false,
+      "risk_flags": [],
+      "sanctions_status": "clear",
+      "screening_id": "SCREEN-FS-0005"
+    },
+    {
+      "client_id": "CLIENT-FS-0006",
+      "pep_status": false,
+      "risk_flags": [],
+      "sanctions_status": "clear",
+      "screening_id": "SCREEN-FS-0006"
+    },
+    {
+      "client_id": "CLIENT-FS-0007",
+      "pep_status": false,
+      "risk_flags": [
+        "enhanced_due_diligence_required"
+      ],
+      "sanctions_status": "clear",
+      "screening_id": "SCREEN-FS-0007"
+    },
+    {
+      "client_id": "CLIENT-FS-0008",
+      "pep_status": false,
+      "risk_flags": [],
+      "sanctions_status": "clear",
+      "screening_id": "SCREEN-FS-0008"
+    }
+  ],
+  "world_id": "financial_services_seed42"
+}
