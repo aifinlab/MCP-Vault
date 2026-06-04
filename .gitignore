@@ -5,6 +5,9 @@ __pycache__/
 .pytest_cache/
 .mypy_cache/
 .ruff_cache/
+.hypothesis/
+.tox/
+.nox/
 .coverage
 .coverage.*
 htmlcov/
@@ -15,10 +18,12 @@ dist/
 *.egg-info/
 .eggs/
 *.egg
+pip-wheel-metadata/
 MANIFEST
 
 # Virtual environments
-.env
+.env*
+!.env.example
 .venv/
 venv/
 env/
@@ -26,6 +31,8 @@ ENV/
 
 # Local runtime artifacts
 log/
+logs/
+*.log
 results/
 local_workspace/
 notebook/
@@ -49,4 +56,3 @@ tests/gpt-oss/
 tests/cursor/
 tests/benchmark/*_run_many_llms.py
 mcpuniverse/llm/gpt_oss_llm.py
-
